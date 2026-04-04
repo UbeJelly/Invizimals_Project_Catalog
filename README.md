@@ -33,14 +33,22 @@ Main features:
 ## 📁 Project Structure
 
 ```bash
-│
+root
 ├── index.html ← Invizimals visuals
-├── invizimals.json ← The configuration of all Invizimals that index.html reads.
+├── invizimals.json ← The Invizimals data that index.html reads.
 │
-├── FIRE/
-│ └── For now, you'll find all the Fire element cards in PDF format.
-├── FIRE_ARTS/
-│ └── You will find the resources used for each Invizimals in its corresponding folder, numbered by card.
+└── SERIES
+  ├── INVIZIMALS
+  ├── INVIZIMALS: SHADOW ZONE
+  ├── INVIZIMALS: HIDDEN CHALLENGES
+  │ └── TYPES
+  │   ├── FIRE/
+  │   │   ├── ART/ ← Individual images for Invizimals and AR cards.
+  │   │   └── PDF/ ← Compiled cards in PDF format.
+  │   ├── ICE/
+  │   ├── JUNGLE/
+  │   ├── ...
+  └── ...
 
 ```
 ## 🌟 Next Steps
