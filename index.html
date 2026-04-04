@@ -185,18 +185,22 @@ h1 {
     padding: 15px;
     text-align: center;
     cursor: pointer;
-    transition: all 0.3s ease;
+    transform: scale(1);
+    perspective: 600px;
+    transition: all 250ms ease-out;
 }
 .invizimal-card:hover {
-    transform: translateY(-5px);
+    z-index: 10;
+    transform: scale(1.3);
 }
 .invizimal-card img {
     width: 100%;
     border-radius: 8px;
     margin-bottom: 10px;
-    transition: transform 0.3s ease;
+    transition: all 250ms ease-out;
 }
 .invizimal-card:hover img {
+    box-shadow: 5px 5px 10px 10px rgba(0, 0, 0, 0.5);
     transform: scale(1.05);
 }
 .invizimal-card h3 {
@@ -432,7 +436,7 @@ h1 {
         <div class="search-filter-container">
             <div class="filter-btn-container">
                 <div class="filter-btn" id="filterBtn">
-                    <img src="RESOURCES/filter.png" alt="Filtrar" class="icon-btn">
+                    <img src="RESOURCES/filter.png" alt="Filter" class="icon-btn">
                 </div>
                 <div class="filter-panel" id="filterPanel">
                     <div class="filter-title">Filter by habitat</div>
@@ -442,7 +446,7 @@ h1 {
             
             <div class="search-btn-container">
                 <div class="search-btn" id="searchBtn">
-                    <img src="RESOURCES/search.png" alt="Buscar" class="icon-btn">
+                    <img src="RESOURCES/search.png" alt="Search" class="icon-btn">
                 </div>
                 <div class="search-panel" id="searchPanel">
                     <input type="text" id="searchInput" placeholder="Search by name...">
@@ -462,13 +466,13 @@ h1 {
                 <img id="modalImage" src="" alt="Invizimal">
             </div>
             <div class="card-info">
-                <h2 id="modalName">Nombre</h2>
+                <h2 id="modalName">Number</h2>
                 <div class="type" id="modalType">Type</div>
-                <div class="description" id="modalDescription">Descripción...</div>
+                <div class="description" id="modalDescription">Description...</div>
                 <div class="stats-ar-container">
                     <div class="stat-simple">
                         <div class="stat-value" id="statValue">0 / 0</div>
-                        <div class="stat-label">Poder Total</div>
+                        <div class="stat-label">Total Power</div>
                     </div>
                     <div class="ar-section">
                         <h3>AR Image</h3>
@@ -540,7 +544,38 @@ function renderInvizimals(data) {
                 cardModal.style.display = 'flex';
             }
         });
+
+        // card hover effects
+        card.addEventListener('mousemove', (ev) => {
+            Card3D(card, ev);
+        });
+
+        card.addEventListener('mouseleave', (ev) => {
+            let img = card.querySelector('img');
+            img.style.transform = 'rotateX(0deg) rotateY(0deg)';
+            img.style.filter = 'brightness(1)';
+        });
     });
+}
+
+// Steam-inspired card hover effects by @nelsonr
+function map(val, minA, maxA, minB, maxB) {
+    return minB + ((val - minA) * (maxB - minB)) / (maxA - minA);
+}
+
+function Card3D(card, ev) {
+    let img = card.querySelector('img');
+    let imgRect = card.getBoundingClientRect();
+    let width = imgRect.width;
+    let height = imgRect.height;
+    let mouseX = ev.offsetX;
+    let mouseY = ev.offsetY;
+    let rotateY = map(mouseX, 0, 180, -25, 25);
+    let rotateX = map(mouseY, 0, 250, 25, -25);
+    let brightness = map(mouseY, 0, 250, 1.5, 0.5);
+
+    img.style.transform = `rotateX(${rotateX}deg) rotateY(${rotateY}deg)`;
+    img.style.filter = `brightness(${brightness})`;
 }
 
 // Configure filters
@@ -665,6 +700,7 @@ closeModal.addEventListener('click', () => cardModal.style.display = 'none');
 cardModal.addEventListener('click', e => {
     if (e.target === cardModal) cardModal.style.display = 'none';
 });
+
 </script>
 </body>
 </html>
