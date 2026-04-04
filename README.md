@@ -1,7 +1,15 @@
+<p align="center">
+    <img src="RESOURCES/Invizimals.png" width="400" height="auto" alt="Invizimals title" class="title">
+</p>
+
 # 🌌 Invizimals - Community Project
 
 **Welcome to Invizimals Universe!**  
 This is a project by the community and for the community, which revives the Invizimals saga on the web with a modern, interactive style.
+
+<p align="center">
+    <video src="preview.mp4" width="720" height="auto" controls></video>
+</p>
 
 ---
 
@@ -17,6 +25,8 @@ Main features:
 
 - For now, you'll find the **Hidden Challenges** cards of the Fire element.
 - The cards will become changed over time.
+- Steam trading cards inspired hover effects!
+- Invizimals: Shadow Zone inspired theme!
 
 ---
 
@@ -38,9 +48,12 @@ Main features:
 - Add all the Invizimals of other elements in **Hidden Challenges**.
 - Build filters that will allow you to select an element in order to view cards that interest you.
 - Build a search engine to filter by the name of each **Invizimals**.
+- Add other Invizimals from other series.
 
 ## 📌 License
 
 This project is **free for personal and community use and modification,** provided that the source and community are cited.
 
 Do not sell without permission from the authors, that is, our friends at **PANINI** and the creators of the **INVIZIMALS** saga.
+
+Orbitron font, Copyright 2018 The Orbitron Project Authors: [Open Font License](RESOURCES/Fonts/Orbitron/OFL.txt)

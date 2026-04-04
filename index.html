@@ -5,18 +5,59 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Invizimals - Catalog</title>
 <style>
+:root {
+    --inv-lime: rgb(209, 255, 81);
+}
+
+@font-face {
+    font-family: 'Orbitron';
+    src: url('RESOURCES/Fonts/Orbitron/Orbitron-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Orbitron Bold';
+    src: url('RESOURCES/Fonts/Orbitron/Orbitron-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Orbitron Black';
+    src: url('RESOURCES/Fonts/Orbitron/Orbitron-Black.ttf') format('truetype');
+    font-weight: bolder;
+    font-style: normal;
+}
+
 /* ====== Modified CSS without boxes ====== */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Orbitron Black', Tahoma, Verdana, sans-serif;
 }
+
 body {
-    background: linear-gradient(135deg, #2d3047 0%, #3a3f6d 100%);
     color: #fff;
     min-height: 100vh;
+}
+.background {
     padding: 20px;
+    background-image: radial-gradient(circle at center, #f972fd, #bc45e3, #711fa6 60%, #521d75);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+.background::after {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.25) 50%);
+    background-size: 100% 10px;
+    z-index: 1;
+    pointer-events: none;
 }
 .container {
     max-width: 1200px;
@@ -31,16 +72,25 @@ header {
     padding: 20px;
     position: relative;
 }
+.title {
+    position: relative;
+    image-rendering: optimizeSpeed;
+    max-width: 30%;
+    z-index: 10;
+}
 h1 {
     font-size: 3rem;
     margin-bottom: 10px;
-    color: #4cc9f0;
+    color: var(--inv-lime);
     text-shadow: 0 0 10px rgba(76, 201, 240, 0.7);
 }
 .subtitle {
-    font-size: 1.2rem;
-    color: #d8d8d8;
+    position: relative;
+    font-size: 1.5rem;
+    color: var(--inv-lime);
+    -webkit-text-stroke: 1px rgba(0, 0, 0, 0.25);
     margin-bottom: 30px;
+    z-index: 10;
 }
 
 /* ====== NEW STYLES FOR SEARCH AND FILTERS ON PC ====== */
@@ -54,7 +104,7 @@ h1 {
 }
 
 .search-btn, .filter-btn {
-    background: rgba(76, 201, 240, 0.8);
+    background: rgba(209, 255, 81, 0.8);
     border: none;
     border-radius: 50%;
     width: 60px;
@@ -69,7 +119,7 @@ h1 {
 }
 
 .search-btn:hover, .filter-btn:hover {
-    background: rgba(76, 201, 240, 1);
+    background: rgb(241, 255, 113);
     transform: scale(1.1);
 }
 
@@ -87,7 +137,7 @@ h1 {
     top: 100%;
     right: 0;
     transform: translateY(10px);
-    background: rgba(45, 48, 71, 0.95);
+    background: rgba(209, 255, 81, 0.95);
     backdrop-filter: blur(10px);
     border-radius: 15px;
     padding: 15px;
@@ -111,14 +161,14 @@ h1 {
     padding: 12px 15px;
     border: none;
     border-radius: 8px;
-    background: rgba(255, 255, 255, 0.1);
-    color: white;
+    background: rgba(255, 255, 255, 0.25);
+    color: rgba(0, 0, 0, 0.5);
     font-size: 1rem;
     outline: none;
 }
 
 .search-panel input::placeholder {
-    color: rgba(255, 255, 255, 0.6);
+    color: rgba(0, 0, 0, 0.25);
 }
 
 .filter-panel {
@@ -126,7 +176,7 @@ h1 {
     top: 100%;
     left: 0;
     transform: translateY(10px);
-    background: rgba(45, 48, 71, 0.95);
+    background: rgba(209, 255, 81, 0.8);
     backdrop-filter: blur(10px);
     border-radius: 15px;
     padding: 15px;
@@ -150,24 +200,25 @@ h1 {
 .filter-option {
     padding: 10px 15px;
     margin: 5px 0;
-    background: rgba(255, 255, 255, 0.1);
+    background: rgba(255, 255, 255, 0.25);
+    color: rgba(0, 0, 0, 0.5);
     border-radius: 8px;
     cursor: pointer;
     transition: background 0.3s;
 }
 
 .filter-option:hover {
-    background: rgba(76, 201, 240, 0.3);
+    background: rgba(255, 255, 255, 0.85);
 }
 
 .filter-option.active {
-    background: rgba(76, 201, 240, 0.5);
+    background: rgba(255, 255, 255, 0.85);
 }
 
 .filter-title {
     text-align: center;
     margin-bottom: 15px;
-    color: #4cc9f0;
+    color: rgba(0, 0, 0, 0.5);
     font-size: 1.2rem;
 }
 
@@ -185,6 +236,7 @@ h1 {
     padding: 15px;
     text-align: center;
     cursor: pointer;
+    z-index: 10;
     transform: scale(1);
     perspective: 600px;
     transition: all 250ms ease-out;
@@ -204,9 +256,10 @@ h1 {
     transform: scale(1.05);
 }
 .invizimal-card h3 {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     margin-bottom: 5px;
-    color: #4cc9f0;
+    color: var(--inv-lime);
+    -webkit-text-stroke: 1px rgba(0, 0, 0, 0.25);
 }
 .invizimal-card p {
     font-size: 0.9rem;
@@ -218,7 +271,7 @@ h1 {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(30, 30, 50, 0.95);
+    background: rgba(112, 31, 166, 0.75);
     backdrop-filter: blur(5px);
     display: none;
     justify-content: center;
@@ -255,8 +308,9 @@ h1 {
 .card-info h2 {
     font-size: 3rem;
     margin-bottom: 10px;
-    color: #4cc9f0;
-    text-shadow: 0 0 15px rgba(76, 201, 240, 0.7);
+    color: var(--inv-lime);
+    -webkit-text-stroke: 1px rgba(0, 0, 0, 0.5);
+    text-shadow: 0 0 15px rgba(209, 255, 82, 0.75);
 }
 .card-info .type {
     font-size: 1.5rem;
@@ -281,9 +335,10 @@ h1 {
 }
 .stat-value {
     font-size: 3rem;
-    color: #4cc9f0;
+    color: var(--inv-lime);
+    -webkit-text-stroke: 1px rgba(0, 0, 0, 0.5);
+    text-shadow: 0 0 15px rgba(209, 255, 82, 0.75);
     font-weight: bold;
-    text-shadow: 0 0 10px rgba(76, 201, 240, 0.5);
 }
 .stat-label {
     font-size: 1.2rem;
@@ -427,57 +482,59 @@ h1 {
 </style>
 </head>
 <body>
-<div class="container">
-    <header>
-        <h1>INVIZIMALS</h1>
-        <p class="subtitle">Welcome! The Fire element cards will be updated. Thank you. :)</p>
-        
-        <!-- Search and filter controls with local images -->
-        <div class="search-filter-container">
-            <div class="filter-btn-container">
-                <div class="filter-btn" id="filterBtn">
-                    <img src="RESOURCES/filter.png" alt="Filter" class="icon-btn">
-                </div>
-                <div class="filter-panel" id="filterPanel">
-                    <div class="filter-title">Filter by habitat</div>
-                    <!-- The filter options will be generated dynamically. -->
-                </div>
-            </div>
+<div class="background">
+    <div class="container">
+        <header>
+            <img src="RESOURCES/Invizimals.png" alt="Invizimals title" class="title">
+            <p class="subtitle">Welcome to CATALOGUE! The Fire element cards will be updated. Thank you. :)</p>
             
-            <div class="search-btn-container">
-                <div class="search-btn" id="searchBtn">
-                    <img src="RESOURCES/search.png" alt="Search" class="icon-btn">
-                </div>
-                <div class="search-panel" id="searchPanel">
-                    <input type="text" id="searchInput" placeholder="Search by name...">
-                </div>
-            </div>
-        </div>
-    </header>
-
-    <div class="invizimals-grid">
-        <!-- Cartas se crean desde JSON -->
-    </div>
-
-    <div class="card-modal" id="cardModal">
-        <button class="close-btn" id="closeModal">&times;</button>
-        <div class="card-content">
-            <div class="card-image">
-                <img id="modalImage" src="" alt="Invizimal">
-            </div>
-            <div class="card-info">
-                <h2 id="modalName">Number</h2>
-                <div class="type" id="modalType">Type</div>
-                <div class="description" id="modalDescription">Description...</div>
-                <div class="stats-ar-container">
-                    <div class="stat-simple">
-                        <div class="stat-value" id="statValue">0 / 0</div>
-                        <div class="stat-label">Total Power</div>
+            <!-- Search and filter controls with local images -->
+            <div class="search-filter-container">
+                <div class="filter-btn-container">
+                    <div class="filter-btn" id="filterBtn">
+                        <img src="RESOURCES/filter.png" alt="Filter" class="icon-btn">
                     </div>
-                    <div class="ar-section">
-                        <h3>AR Image</h3>
-                        <img id="modalAR" src="" alt="AR del Invizimal" class="ar-image">
-                        <p class="ar-note">Scan with the Invizimals app</p>
+                    <div class="filter-panel" id="filterPanel">
+                        <div class="filter-title">Filter by habitat</div>
+                        <!-- The filter options will be generated dynamically. -->
+                    </div>
+                </div>
+                
+                <div class="search-btn-container">
+                    <div class="search-btn" id="searchBtn">
+                        <img src="RESOURCES/search.png" alt="Search" class="icon-btn">
+                    </div>
+                    <div class="search-panel" id="searchPanel">
+                        <input type="text" id="searchInput" placeholder="Search by name...">
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <div class="invizimals-grid">
+            <!-- Cartas se crean desde JSON -->
+        </div>
+
+        <div class="card-modal" id="cardModal">
+            <button class="close-btn" id="closeModal">&times;</button>
+            <div class="card-content">
+                <div class="card-image">
+                    <img id="modalImage" src="" alt="Invizimal">
+                </div>
+                <div class="card-info">
+                    <h2 id="modalName">Number</h2>
+                    <div class="type" id="modalType">Type</div>
+                    <div class="description" id="modalDescription">Description...</div>
+                    <div class="stats-ar-container">
+                        <div class="stat-simple">
+                            <div class="stat-value" id="statValue">0 / 0</div>
+                            <div class="stat-label">Total Power</div>
+                        </div>
+                        <div class="ar-section">
+                            <h3>AR Image</h3>
+                            <img id="modalAR" src="" alt="AR del Invizimal" class="ar-image">
+                            <p class="ar-note">Scan with the Invizimals app</p>
+                        </div>
                     </div>
                 </div>
             </div>
