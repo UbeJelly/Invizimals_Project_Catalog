@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Invizimals - Pokédex</title>
+<title>Invizimals - Catalog</title>
 <style>
-/* ====== CSS MODIFICADO SIN RECUADROS ====== */
+/* ====== Modified CSS without boxes ====== */
 * {
     margin: 0;
     padding: 0;
@@ -43,7 +43,7 @@ h1 {
     margin-bottom: 30px;
 }
 
-/* ====== NUEVOS ESTILOS PARA BÚSQUEDA Y FILTROS EN PC ====== */
+/* ====== NEW STYLES FOR SEARCH AND FILTERS ON PC ====== */
 .search-filter-container {
     display: flex;
     justify-content: center;
@@ -73,7 +73,7 @@ h1 {
     transform: scale(1.1);
 }
 
-/* Imagen dentro del botón */
+/* Image inside the button */
 .icon-btn {
     width: 30px;
     height: 30px;
@@ -81,7 +81,7 @@ h1 {
     pointer-events: none;
 }
 
-/* PANELES PARA PC - ARRIBA */
+/* PC PANELS - ABOVE */
 .search-panel {
     position: absolute;
     top: 100%;
@@ -171,7 +171,7 @@ h1 {
     font-size: 1.2rem;
 }
 
-/* ====== ESTILOS EXISTENTES ====== */
+/* ====== EXISTING STYLES ====== */
 .invizimals-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
@@ -359,7 +359,7 @@ h1 {
     .stats-ar-container { flex-direction: column; gap: 20px; }
     .stat-value { font-size: 2.5rem; }
     
-    /* ====== ESTILOS MÓVIL PARA BÚSQUEDA Y FILTROS ====== */
+    /* ====== MOBILE STYLES FOR SEARCH AND FILTERS ====== */
     .search-filter-container {
         position: fixed;
         bottom: 20px;
@@ -369,7 +369,7 @@ h1 {
         padding: 0 20px;
         margin: 0;
         pointer-events: none;
-        z-index: 1000; /* Añadido para asegurar que esté por encima */
+        z-index: 1000; /* Added to ensure it is above */
     }
 
     .search-btn, .filter-btn {
@@ -386,13 +386,13 @@ h1 {
         width: calc(100% - 40px);
         max-width: 300px;
         margin-top: 0;
-        pointer-events: none; /* Inicialmente deshabilitado */
-        z-index: 999; /* Asegurar que esté por encima del contenido */
+        pointer-events: none; /* Initially disabled */
+        z-index: 999; /* Ensure that it is above the content */
     }
 
     .search-panel.active {
         transform: translateX(0);
-        pointer-events: auto; /* Habilitar cuando esté activo */
+        pointer-events: auto; /* Enable when active */
     }
 
     .filter-panel {
@@ -405,16 +405,16 @@ h1 {
         width: calc(100% - 40px);
         max-width: 300px;
         margin-top: 0;
-        pointer-events: none; /* Inicialmente deshabilitado */
-        z-index: 999; /* Asegurar que esté por encima del contenido */
+        pointer-events: none; /* Initially disabled */
+        z-index: 999; /* Ensure that it is above the content */
     }
 
     .filter-panel.active {
         transform: translateY(0);
-        pointer-events: auto; /* Habilitar cuando esté activo */
+        pointer-events: auto; /* Enable when active */
     }
     
-    /* Añadido: Cuando un panel está activo, deshabilitar las tarjetas detrás */
+    /* Added: When a panel is active, disable the cards behind it. */
     .search-panel.active ~ .invizimals-grid,
     .filter-panel.active ~ .invizimals-grid {
         pointer-events: none;
@@ -426,17 +426,17 @@ h1 {
 <div class="container">
     <header>
         <h1>INVIZIMALS</h1>
-        <p class="subtitle">Bienvenido, Las Cartas del elemento de fuego se iran actualizando, Gracias :)</p>
+        <p class="subtitle">Welcome! The Fire element cards will be updated. Thank you. :)</p>
         
-        <!-- Controles de búsqueda y filtro con imágenes locales -->
+        <!-- Search and filter controls with local images -->
         <div class="search-filter-container">
             <div class="filter-btn-container">
                 <div class="filter-btn" id="filterBtn">
                     <img src="RECURSOS/montana.png" alt="Filtrar" class="icon-btn">
                 </div>
                 <div class="filter-panel" id="filterPanel">
-                    <div class="filter-title">Filtrar por hábitat</div>
-                    <!-- Las opciones de filtro se generarán dinámicamente -->
+                    <div class="filter-title">Filter by habitat</div>
+                    <!-- The filter options will be generated dynamically. -->
                 </div>
             </div>
             
@@ -445,7 +445,7 @@ h1 {
                     <img src="RECURSOS/lupa.png" alt="Buscar" class="icon-btn">
                 </div>
                 <div class="search-panel" id="searchPanel">
-                    <input type="text" id="searchInput" placeholder="Buscar por nombre...">
+                    <input type="text" id="searchInput" placeholder="Search by name...">
                 </div>
             </div>
         </div>
@@ -463,7 +463,7 @@ h1 {
             </div>
             <div class="card-info">
                 <h2 id="modalName">Nombre</h2>
-                <div class="type" id="modalType">Tipo</div>
+                <div class="type" id="modalType">Type</div>
                 <div class="description" id="modalDescription">Descripción...</div>
                 <div class="stats-ar-container">
                     <div class="stat-simple">
@@ -471,9 +471,9 @@ h1 {
                         <div class="stat-label">Poder Total</div>
                     </div>
                     <div class="ar-section">
-                        <h3>Imagen AR</h3>
+                        <h3>AR Image</h3>
                         <img id="modalAR" src="" alt="AR del Invizimal" class="ar-image">
-                        <p class="ar-note">Escanea con la app de Invizimals</p>
+                        <p class="ar-note">Scan with the Invizimals app</p>
                     </div>
                 </div>
             </div>
@@ -482,7 +482,7 @@ h1 {
 </div>
 
 <script>
-// ====== JavaScript para cargar datos desde JSON ======
+// ====== JavaScript to load data from JSON ======
 const grid = document.querySelector('.invizimals-grid');
 const cardModal = document.getElementById('cardModal');
 const closeModal = document.getElementById('closeModal');
@@ -493,18 +493,18 @@ const modalDescription = document.getElementById('modalDescription');
 const modalAR = document.getElementById('modalAR');
 const statValue = document.getElementById('statValue');
 
-// Elementos de búsqueda y filtro
+// Search and filter elements
 const searchBtn = document.getElementById('searchBtn');
 const filterBtn = document.getElementById('filterBtn');
 const searchPanel = document.getElementById('searchPanel');
 const filterPanel = document.getElementById('filterPanel');
 const searchInput = document.getElementById('searchInput');
 
-// Variables para almacenar datos
+// Variables for storing data
 let invizimalsData = [];
 let currentFilter = 'all';
 
-// Cargar JSON
+// Load JSON
 fetch('invizimals.json')
     .then(res => res.json())
     .then(data => {
@@ -513,7 +513,7 @@ fetch('invizimals.json')
         setupFilters(data);
     });
 
-// Función para renderizar las cartas
+// Function for rendering the cards
 function renderInvizimals(data) {
     grid.innerHTML = '';
     data.forEach(inv => {
@@ -523,15 +523,15 @@ function renderInvizimals(data) {
         card.innerHTML = `
             <img src="${inv.image}" alt="${inv.name}">
             <h3>${inv.name}</h3>
-            <p>Tipo: ${inv.type}</p>
+            <p>Type: ${inv.type}</p>
         `;
         grid.appendChild(card);
 
-        // Evento click para abrir modal
+        // Click event to open modal
         card.addEventListener('click', () => {
-            // Verificar que no haya paneles activos
+            // Verify that there are no active panels
             if (!searchPanel.classList.contains('active') && !filterPanel.classList.contains('active')) {
-                modalImage.src = inv.image2; // segunda imagen
+                modalImage.src = inv.image2; // second image
                 modalName.textContent = inv.name;
                 modalType.textContent = inv.type;
                 modalDescription.textContent = inv.description;
@@ -543,22 +543,22 @@ function renderInvizimals(data) {
     });
 }
 
-// Configurar filtros
+// Configure filters
 function setupFilters(data) {
     const filterPanel = document.getElementById('filterPanel');
     
-    // Obtener hábitats únicos de todos los arrays de hábitats
+    // Obtain unique habitats from all habitat arrays
     const allHabitats = data.flatMap(inv => inv.habitats || [inv.habitat]);
     const habitats = [...new Set(allHabitats)];
     
-    // Crear opción "Todos"
+    // Create "All" option
     const allOption = document.createElement('div');
     allOption.className = 'filter-option active';
-    allOption.textContent = 'Todos';
+    allOption.textContent = 'ALL';
     allOption.dataset.filter = 'all';
     filterPanel.appendChild(allOption);
     
-    // Crear opciones para cada hábitat
+    // Create options for each habitat
     habitats.forEach(habitat => {
         const option = document.createElement('div');
         option.className = 'filter-option';
@@ -567,7 +567,7 @@ function setupFilters(data) {
         filterPanel.appendChild(option);
     });
     
-    // Event listeners para filtros
+    // Event listeners for filters
     document.querySelectorAll('.filter-option').forEach(option => {
         option.addEventListener('click', () => {
             document.querySelectorAll('.filter-option').forEach(opt => {
@@ -581,12 +581,12 @@ function setupFilters(data) {
     });
 }
 
-// Aplicar filtros y búsqueda
+// Apply filters and search
 function applyFilters() {
     let filteredData = [...invizimalsData];
     if (currentFilter !== 'all') {
         filteredData = filteredData.filter(inv => {
-            // Compatible con el nuevo array habitats y el antiguo habitat individual
+            // Compatible with the new array habitats and the old individual habitat
             const invHabitats = inv.habitats || [inv.habitat];
             return invHabitats.includes(currentFilter);
         });
@@ -600,7 +600,7 @@ function applyFilters() {
     renderInvizimals(filteredData);
 }
 
-// Event listeners para controles de búsqueda y filtro
+// Event listeners for search and filter controls
 searchBtn.addEventListener('click', (e) => {
     e.stopPropagation();
     searchPanel.classList.toggle('active');
@@ -619,9 +619,9 @@ filterBtn.addEventListener('click', (e) => {
 
 searchInput.addEventListener('input', applyFilters);
 
-// Cerrar paneles al hacer clic fuera - SOLO para PC
+// Close panels on click outside - PC ONLY
 function handleClickOutside(e) {
-    // Solo aplicar en PC (ancho mayor a 768px)
+    // Only apply on PC (width greater than 768px)
     if (window.innerWidth > 768) {
         const isSearchPanel = searchPanel.contains(e.target);
         const isSearchBtn = searchBtn.contains(e.target);
@@ -639,12 +639,12 @@ function handleClickOutside(e) {
 
 document.addEventListener('click', handleClickOutside);
 
-// Prevenir que el input cierre el panel
+// Prevent the input from closing the panel
 searchInput.addEventListener('click', (e) => {
     e.stopPropagation();
 });
 
-// Cerrar paneles al tocar fuera en móvil
+// Close panels by tapping outside on mobile
 document.addEventListener('touchstart', (e) => {
     if (window.innerWidth <= 768) {
         const isSearchPanel = searchPanel.contains(e.target);

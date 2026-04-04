@@ -1,46 +1,46 @@
-# 🌌 Invizimals - Proyecto Comunitario
+# 🌌 Invizimals - Community Project
 
-**¡Bienvenido a Invizimals Universe!**  
-Este es un proyecto **por la comunidad y para la comunidad**, que revive la saga de Invizimals en la web con un estilo moderno, interactivo.
-
----
-
-## 🎮 Descripción
-
-Este proyecto es una **enciclopedia interactiva de cartas** de las generaciones:
-
-1. **Desafíos Ocultos**  
-2. **Proximamente las cartas Nueva Alianza**
-3. **Proximamente las cartas de psp**
-
-Características principales:
-
-- Por el momento vas a encontrar las cartas de **Desafíos Ocultos** del elemento de Fuego
-- Las cartas se cargaran con el paso de los dias
+**Welcome to Invizimals Universe!**  
+This is a project by the community and for the community, which revives the Invizimals saga on the web with a modern, interactive style.
 
 ---
 
-## 📁 Estructura del proyecto
+## 🎮 Description
+
+This project is an **interactive encyclopedia of cards** from the generations:
+
+1. **Hidden Challenges**  
+2. **New Alliance** (coming soon)
+3. **PSP cards** (coming soon)
+
+Main features:
+
+- For now, you'll find the **Hidden Challenges** cards of the Fire element.
+- The cards will become changed over time.
+
+---
+
+## 📁 Project Structure
 
 ```bash
 │
-├── index.html ← Visualizacion de los invizimals
-├── invizimals.json ← De aqui sale la configuracion de todos los invizimals para que index.html lo lea
+├── index.html ← Invizimals visuals
+├── invizimals.json ← The configuration of all Invizimals that index.html reads.
 │
-├── FUEGO/
-│ └── Por el momento vas a encontrar todas las cartas del elemento Fuego en PDF
-├── FUEGO_ARTES/
-│ └── Vas a encontrar los recursos que se usan para cada invizimals con su carpeta correspondiente al 
-      numero de carta
+├── FIRE/
+│ └── For now, you'll find all the Fire element cards in PDF format.
+├── FIRE_ARTS/
+│ └── You will find the resources used for each Invizimals in its corresponding folder, numbered by card.
+
 ```
-## 🌟 Próximos Pasos
+## 🌟 Next Steps
 
-- Cargar los invizimals de todos los elementos pertenecientes a **Desafíos Ocultos**
-- Construir filtros que van a permitir seleccionar un elemento para poder vizualizar cartas que nos interesen 
-- Construir un buscador para poder filtrar por nombre de cada **invizimals**
+- Add all the Invizimals of other elements in **Hidden Challenges**.
+- Build filters that will allow you to select an element in order to view cards that interest you.
+- Build a search engine to filter by the name of each **Invizimals**.
 
-## 📌 Licencia
+## 📌 License
 
-Este proyecto está **libre para uso y modificación personal y comunitaria,** siempre que se cite la fuente y la comunidad.
+This project is **free for personal and community use and modification,** provided that the source and community are cited.
 
-No comercializar sin permiso de los autores, es decir nuestros amigos de **PANINI** y los creadores de la saga **INVIZIMALS**
+Do not sell without permission from the authors, that is, our friends at **PANINI** and the creators of the **INVIZIMALS** saga.
