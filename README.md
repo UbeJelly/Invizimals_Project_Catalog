@@ -1,5 +1,6 @@
 <p align="center">
     <img src="RESOURCES/Invizimals.png" width="400" height="auto" alt="Invizimals title" class="title">
+    <br>Total cards recorded: 77
 </p>
 
 # 🌌 Invizimals: Project Catalog
