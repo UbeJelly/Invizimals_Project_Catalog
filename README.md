@@ -2,7 +2,7 @@
     <img src="RESOURCES/Invizimals.png" width="400" height="auto" alt="Invizimals title" class="title">
 </p>
 
-# 🌌 Invizimals - Community Project
+# 🌌 Invizimals: Project Catalog
 
 **Welcome to Invizimals Universe!**  
 This is a project by the community and for the community, which revives the Invizimals saga on the web with a modern, interactive style.

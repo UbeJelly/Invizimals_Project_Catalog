@@ -74,6 +74,7 @@ header {
 }
 .title {
     position: relative;
+    margin-bottom: 20px;
     image-rendering: optimizeSpeed;
     max-width: 30%;
     z-index: 10;
@@ -128,6 +129,7 @@ h1 {
     width: 30px;
     height: 30px;
     object-fit: contain;
+    user-select: none;
     pointer-events: none;
 }
 
@@ -486,7 +488,9 @@ h1 {
     <div class="container">
         <header>
             <img src="RESOURCES/Invizimals.png" alt="Invizimals title" class="title">
-            <p class="subtitle">Welcome to CATALOGUE! The Fire element cards will be updated. Thank you. :)</p>
+            <p class="subtitle">Welcome to the CATALOGUE!
+                <br>Total cards: <span class="total_cards"></span>
+            </p>
             
             <!-- Search and filter controls with local images -->
             <div class="search-filter-container">
@@ -495,7 +499,7 @@ h1 {
                         <img src="RESOURCES/filter.png" alt="Filter" class="icon-btn">
                     </div>
                     <div class="filter-panel" id="filterPanel">
-                        <div class="filter-title">Filter by habitat</div>
+                        <div class="filter-title">Filter by type</div>
                         <!-- The filter options will be generated dynamically. -->
                     </div>
                 </div>
@@ -570,6 +574,10 @@ fetch('invizimals.json')
     .then(res => res.json())
     .then(data => {
         invizimalsData = data;
+
+        // Display number of cards in JSON
+        document.querySelector('.total_cards').innerHTML = `${invizimalsData.length}`;
+
         renderInvizimals(data);
         setupFilters(data);
     });
@@ -582,7 +590,7 @@ function renderInvizimals(data) {
         card.className = 'invizimal-card';
         card.setAttribute('data-id', inv.id);
         card.innerHTML = `
-            <img src="${inv.image}" alt="${inv.name}">
+            <img loading="lazy" src="${inv.image}" alt="${inv.name}">
             <h3>${inv.name}</h3>
             <p>Type: ${inv.type}</p>
         `;
