@@ -9,7 +9,7 @@
 This is a project by the community and for the community, which revives the Invizimals saga on the web with a modern, interactive style.
 
 <p align="center">
-    <video src="https://github.com/user-attachments/assets/1f2e424f-0740-4042-b3bc-c52d9c72e085" width="720" height="480" controls></video>
+    <video src="https://github.com/user-attachments/assets/29275648-aa6e-410b-a92b-92d3be141f0c" width="640" height="360" controls></video>
 </p>
 
 ---
