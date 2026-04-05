@@ -31,6 +31,41 @@ Main features:
 
 ---
 
+## 💾 Data Structure
+```JSON
+{
+    // JSON data of entire catalog
+    "catalog": {
+        "total_cards": 77,
+        "total_types": [
+            {
+                "type": "fire",
+                "total": 44
+            },
+            ...
+        ]
+    },
+
+    // Series has its own array of Invizimals
+    "series": {
+        "Hidden_Challenges": [
+            {
+                "id": 1,
+                "name": "Beatwidow",
+                "type": "Fire / PUP / 001",
+                "image": "SERIES/INVIZIMALS_HIDDEN_CHALLENGES/TYPES/FIRE/ART/01/frontal.png",
+                "image2": "SERIES/INVIZIMALS_HIDDEN_CHALLENGES/TYPES/FIRE/ART/01/personaje.png",
+                "arImage": "SERIES/INVIZIMALS_HIDDEN_CHALLENGES/TYPES/FIRE/ART/01/ar.png",
+                "description": "A dancing spider? This Invizimal world is full of surprises! I present Beatwidow, the queen of the disco, who can break dance or as a robot... Whatever you want!! This creature is such a good dancer that she has a disco ball in her stomach. By the way, watch that ball... maybe you can use it in more... dangerous ways!",
+                "stat": "285 / 150",
+                "habitats": "FIRE"
+            },
+            ...
+        ]
+    }
+}
+```
+
 ## 📁 Project Structure
 
 ```bash

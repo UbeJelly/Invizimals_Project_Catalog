@@ -580,13 +580,14 @@ let currentFilter = 'all';
 fetch('invizimals.json')
     .then(res => res.json())
     .then(data => {
-        invizimalsData = data;
+        // TODO: Make set a default series to load from at the start
+        invizimalsData = data.series.Hidden_Challenges;
 
         // Display number of cards in JSON
         document.querySelector('.total_cards').innerHTML = `${invizimalsData.length}`;
 
-        renderInvizimals(data);
-        setupFilters(data);
+        renderInvizimals(data.series.Hidden_Challenges);
+        setupFilters(data.series.Hidden_Challenges);
     });
 
 // Function for rendering the cards
