@@ -23,7 +23,7 @@
                 "arImage": "SERIES/INVIZIMALS_HIDDEN_CHALLENGES/TYPES/FIRE/ART/01/ar.png",
                 "description": "A dancing spider? This Invizimal world is full of surprises! I present Beatwidow, the queen of the disco, who can break dance or as a robot... Whatever you want!! This creature is such a good dancer that she has a disco ball in her stomach. By the way, watch that ball... maybe you can use it in more... dangerous ways!",
                 "stat": "285 / 150",
-                "habitats": "FIRE"
+                "types": "FIRE"
             },
             {
                 "id": 2,
@@ -34,7 +34,7 @@
                 "arImage": "SERIES/INVIZIMALS_HIDDEN_CHALLENGES/TYPES/FIRE/ART/02/ar.png",
                 "description": "A dancing spider? This Invizimal world is full of surprises! I present Beatwidow, the queen of the disco, who can break dance or as a robot... Whatever you want!! This creature is such a good dancer that she has a disco ball in her stomach. By the way, watch that ball... maybe you can use it in more... dangerous ways!",
                 "stat": "250 / 300",
-                "habitats": "FIRE"
+                "types": "FIRE"
             },
             {
                 "id": 3,
@@ -45,7 +45,7 @@
                 "arImage": "SERIES/INVIZIMALS_HIDDEN_CHALLENGES/TYPES/FIRE/ART/03/ar.png",
                 "description": "A dancing spider? This Invizimal world is full of surprises! I present Beatwidow, the queen of the disco, who can break dance or as a robot... Whatever you want!! This creature is such a good dancer that she has a disco ball in her stomach. By the way, watch that ball... maybe you can use it in more... dangerous ways!",
                 "stat": "600 / 500",
-                "habitats": "FIRE"
+                "types": "FIRE"
             },
             {
                 "id": 4,
@@ -56,7 +56,7 @@
                 "arImage": "SERIES/INVIZIMALS_HIDDEN_CHALLENGES/TYPES/FIRE/ART/04/ar.png",
                 "description": "Firecrackers were mentioned in ancient papyrus seven hundred years ago. These mighty creatures of fire and ash dwell in the depths of volcanoes like Mount Vesuvius. Dawson and Kenichi discovered them in their first adventure, and since then Dawson always carries one of these around, as his personal pet.",
                 "stat": "200 / 300",
-                "habitats": "FIRE"
+                "types": "FIRE"
             },
             {
                 "id": 5,
@@ -67,7 +67,7 @@
                 "arImage": "SERIES/INVIZIMALS_HIDDEN_CHALLENGES/TYPES/FIRE/ART/05/ar.png",
                 "description": "Firecrackers were mentioned in ancient papyrus seven hundred years ago. These mighty creatures of fire and ash dwell in the depths of volcanoes like Mount Vesuvius. Dawson and Kenichi discovered them in their first adventure, and since then Dawson always carries one of these around, as his personal pet.",
                 "stat": "400 / 500",
-                "habitats": "FIRE"
+                "types": "FIRE"
             },
             {
                 "id": 6,
@@ -78,7 +78,7 @@
                 "arImage": "SERIES/INVIZIMALS_HIDDEN_CHALLENGES/TYPES/FIRE/ART/06/ar.png",
                 "description": "Firecrackers were mentioned in ancient papyrus seven hundred years ago. These mighty creatures of fire and ash dwell in the depths of volcanoes like Mount Vesuvius. Dawson and Kenichi discovered them in their first adventure, and since then Dawson always carries one of these around, as his personal pet.",
                 "stat": "650 / 750",
-                "habitats": "FIRE"
+                "types": "FIRE"
             },
             {
                 "id": 7,
@@ -89,7 +89,7 @@
                 "arImage": "SERIES/INVIZIMALS_HIDDEN_CHALLENGES/TYPES/FIRE/ART/07/ar.png",
                 "description": "Deep in the Egyptian desert, in a climate so hot it set his body on fire, lives the Flameclaw. A strange scorpion-like creature, Flameclaw combines poison with fire in a fatal cocktail, spiced with an arrogant personality. This creature is really king of the desert, and is notorious for behaving as such.",
                 "stat": "300 / 350",
-                "habitats": "FIRE"
+                "types": "FIRE"
             },
             {
                 "id": 8,
@@ -100,7 +100,7 @@
                 "arImage": "SERIES/INVIZIMALS_HIDDEN_CHALLENGES/TYPES/FIRE/ART/08/ar.png",
                 "description": "Deep in the Egyptian desert, in a climate so hot it set his body on fire, lives the Flameclaw. A strange scorpion-like creature, Flameclaw combines poison with fire in a fatal cocktail, spiced with an arrogant personality. This creature is really king of the desert, and is notorious for behaving as such.",
                 "stat": "550 / 450",
-                "habitats": "FIRE"
+                "types": "FIRE"
             },
             {
                 "id": 9,
@@ -111,7 +111,7 @@
                 "arImage": "SERIES/INVIZIMALS_HIDDEN_CHALLENGES/TYPES/FIRE/ART/09/ar.png",
                 "description": "Deep in the Egyptian desert, in a climate so hot it set his body on fire, lives the Flameclaw. A strange scorpion-like creature, Flameclaw combines poison with fire in a fatal cocktail, spiced with an arrogant personality. This creature is really king of the desert, and is notorious for behaving as such.",
                 "stat": "750 / 500",
-                "habitats": "FIRE"
+                "types": "FIRE"
             },
             {
                 "id": 10,
@@ -122,7 +122,7 @@
                 "arImage": "SERIES/INVIZIMALS_HIDDEN_CHALLENGES/TYPES/FIRE/ART/10/ar.png",
                 "description": "Some creatures can change the colour of their skin at will: Chameleons, some lizards and the Fossilzaur, the Invizimal that lives in caves. Changing your colour has become a survival strategy: you can disguise yourself, wait patiently and catch your prey by surprise. But in the dark caves do not happen many things, so sometimes the Fossilzaur has to wait. And wait.",
                 "stat": "300 / 300",
-                "habitats": "FIRE"
+                "types": "FIRE"
             },
             {
                 "id": 11,
@@ -133,7 +133,7 @@
                 "arImage": "SERIES/INVIZIMALS_HIDDEN_CHALLENGES/TYPES/FIRE/ART/11/ar.png",
                 "description": "Some creatures can change the colour of their skin at will: Chameleons, some lizards and the Fossilzaur, the Invizimal that lives in caves. Changing your colour has become a survival strategy: you can disguise yourself, wait patiently and catch your prey by surprise. But in the dark caves do not happen many things, so sometimes the Fossilzaur has to wait. And wait.",
                 "stat": "250 / 250",
-                "habitats": "FIRE"
+                "types": "FIRE"
             },
             {
                 "id": 12,
@@ -144,7 +144,7 @@
                 "arImage": "SERIES/INVIZIMALS_HIDDEN_CHALLENGES/TYPES/FIRE/ART/12/ar.png",
                 "description": "Some creatures can change the colour of their skin at will: Chameleons, some lizards and the Fossilzaur, the Invizimal that lives in caves. Changing your colour has become a survival strategy: you can disguise yourself, wait patiently and catch your prey by surprise. But in the dark caves do not happen many things, so sometimes the Fossilzaur has to wait. And wait.",
                 "stat": "650 / 650",
-                "habitats": "FIRE"
+                "types": "FIRE"
             },
             {
                 "id": 13,
@@ -155,7 +155,7 @@
                 "arImage": "SERIES/INVIZIMALS_HIDDEN_CHALLENGES/TYPES/FIRE/ART/13/ar.png",
                 "description": "The Griffonators are stalkers reptiles roaming the banks of rivers in India. Fast and loud, they have the ability to fly short distances using their little wings so they can fly on their prey, and silently attack from above with a lethal blow.",
                 "stat": "300 / 300",
-                "habitats": "FIRE"
+                "types": "FIRE"
             },
             {
                 "id": 14,
@@ -166,7 +166,7 @@
                 "arImage": "SERIES/INVIZIMALS_HIDDEN_CHALLENGES/TYPES/FIRE/ART/14/ar.png",
                 "description": "The Griffonators are stalkers reptiles roaming the banks of rivers in India. Fast and loud, they have the ability to fly short distances using their little wings so they can fly on their prey, and silently attack from above with a lethal blow.",
                 "stat": "550 / 450",
-                "habitats": "FIRE"
+                "types": "FIRE"
             },
             {
                 "id": 15,
@@ -177,7 +177,7 @@
                 "arImage": "SERIES/INVIZIMALS_HIDDEN_CHALLENGES/TYPES/FIRE/ART/15/ar.png",
                 "description": "The Griffonators are stalkers reptiles roaming the banks of rivers in India. Fast and loud, they have the ability to fly short distances using their little wings so they can fly on their prey, and silently attack from above with a lethal blow.",
                 "stat": "750 / 650",
-                "habitats": "FIRE"
+                "types": "FIRE"
             },
             {
                 "id": 16,
@@ -188,7 +188,7 @@
                 "arImage": "SERIES/INVIZIMALS_HIDDEN_CHALLENGES/TYPES/FIRE/ART/16/ar.png",
                 "description": "Minotaur used to be free to roam the earth... But they are so dangerous; a king in ancient Greece had to build a labyrinth to hold them! Now you helped one of them escape, this angry, fierce Invizimal owes you a debt of gratitude...",
                 "stat": "300 / 350",
-                "habitats": "FIRE"
+                "types": "FIRE"
             },
             {
                 "id": 17,
@@ -199,7 +199,7 @@
                 "arImage": "SERIES/INVIZIMALS_HIDDEN_CHALLENGES/TYPES/FIRE/ART/17/ar.png",
                 "description": "Minotaur used to be free to roam the earth... But they are so dangerous; a king in ancient Greece had to build a labyrinth to hold them! Now you helped one of them escape, this angry, fierce Invizimal owes you a debt of gratitude...",
                 "stat": "550 / 500",
-                "habitats": "FIRE"
+                "types": "FIRE"
             },
             {
                 "id": 18,
@@ -210,7 +210,7 @@
                 "arImage": "SERIES/INVIZIMALS_HIDDEN_CHALLENGES/TYPES/FIRE/ART/18/ar.png",
                 "description": "Minotaur used to be free to roam the earth... But they are so dangerous; a king in ancient Greece had to build a labyrinth to hold them! Now you helped one of them escape, this angry, fierce Invizimal owes you a debt of gratitude...",
                 "stat": "750 / 600",
-                "habitats": "FIRE"
+                "types": "FIRE"
             },
             {
                 "id": 19,
@@ -221,7 +221,7 @@
                 "arImage": "SERIES/INVIZIMALS_HIDDEN_CHALLENGES/TYPES/FIRE/ART/19/ar.png",
                 "description": "Deep in Hawaii Volcanoes live Porcupain, a race of strong warriors who just want to eat, sleep and fight. The Porcupains have the ability to stretch his body, which used to surprise their enemies. But every warrior has a weakness and Porcupains often have nightmares. Make sure that your Porcupain sleep well and will be a loyal companion!",
                 "stat": "200 / 250",
-                "habitats": "FIRE"
+                "types": "FIRE"
             },
             {
                 "id": 20,
@@ -232,7 +232,7 @@
                 "arImage": "SERIES/INVIZIMALS_HIDDEN_CHALLENGES/TYPES/FIRE/ART/20/ar.png",
                 "description": "Deep in Hawaii Volcanoes live Porcupain, a race of strong warriors who just want to eat, sleep and fight. The Porcupains have the ability to stretch his body, which used to surprise their enemies. But every warrior has a weakness and Porcupains often have nightmares. Make sure that your Porcupain sleep well and will be a loyal companion!",
                 "stat": "500 / 550",
-                "habitats": "FIRE"
+                "types": "FIRE"
             },
             {
                 "id": 21,
@@ -243,7 +243,7 @@
                 "arImage": "SERIES/INVIZIMALS_HIDDEN_CHALLENGES/TYPES/FIRE/ART/21/ar.png",
                 "description": "Deep in Hawaii Volcanoes live Porcupain, a race of strong warriors who just want to eat, sleep and fight. The Porcupains have the ability to stretch his body, which used to surprise their enemies. But every warrior has a weakness and Porcupains often have nightmares. Make sure that your Porcupain sleep well and will be a loyal companion!",
                 "stat": "650 / 750",
-                "habitats": "FIRE"
+                "types": "FIRE"
             },
             {
                 "id": 22,
@@ -254,7 +254,7 @@
                 "arImage": "SERIES/INVIZIMALS_HIDDEN_CHALLENGES/TYPES/FIRE/ART/22/ar.png",
                 "description": "In feudal Japan, everyone could become a hero. Take Shizoku, for example. Once a happy pig grazing the farm lands, he's now become a full-blown warrior in armor. Imagine the face of the farmers when they saw him coming out of the stables, dressed ears to hoof in full samurai regalia!",
                 "stat": "200 / 150",
-                "habitats": "FIRE"
+                "types": "FIRE"
             },
             {
                 "id": 23,
@@ -265,7 +265,7 @@
                 "arImage": "SERIES/INVIZIMALS_HIDDEN_CHALLENGES/TYPES/FIRE/ART/23/ar.png",
                 "description": "In feudal Japan, everyone could become a hero. Take Shizoku, for example. Once a happy pig grazing the farm lands, he's now become a full-blown warrior in armor. Imagine the face of the farmers when they saw him coming out of the stables, dressed ears to hoof in full samurai regalia!",
                 "stat": "350 / 400",
-                "habitats": "FIRE"
+                "types": "FIRE"
             },
             {
                 "id": 24,
@@ -276,7 +276,7 @@
                 "arImage": "SERIES/INVIZIMALS_HIDDEN_CHALLENGES/TYPES/FIRE/ART/24/ar.png",
                 "description": "In feudal Japan, everyone could become a hero. Take Shizoku, for example. Once a happy pig grazing the farm lands, he's now become a full-blown warrior in armor. Imagine the face of the farmers when they saw him coming out of the stables, dressed ears to hoof in full samurai regalia!",
                 "stat": "450 / 550",
-                "habitats": "FIRE"
+                "types": "FIRE"
             },
             {
                 "id": 25,
@@ -287,7 +287,7 @@
                 "arImage": "SERIES/INVIZIMALS_HIDDEN_CHALLENGES/TYPES/FIRE/ART/25/ar.png",
                 "description": "Stingwing was the first Invizimal Kenichi ever captured. A playful insect, don't let her looks deceive you: Stingwing can generate powerful electrical shocks that make her as attractive... as she is dangerous. Experienced players never underestimate them in combat.",
                 "stat": "200 / 100",
-                "habitats": "FIRE"
+                "types": "FIRE"
             },
             {
                 "id": 26,
@@ -298,7 +298,7 @@
                 "arImage": "SERIES/INVIZIMALS_HIDDEN_CHALLENGES/TYPES/FIRE/ART/26/ar.png",
                 "description": "Stingwing was the first Invizimal Kenichi ever captured. A playful insect, don't let her looks deceive you: Stingwing can generate powerful electrical shocks that make her as attractive... as she is dangerous. Experienced players never underestimate them in combat.",
                 "stat": "400 / 250",
-                "habitats": "FIRE"
+                "types": "FIRE"
             },
             {
                 "id": 27,
@@ -309,7 +309,7 @@
                 "arImage": "SERIES/INVIZIMALS_HIDDEN_CHALLENGES/TYPES/FIRE/ART/27/ar.png",
                 "description": "Stingwing was the first Invizimal Kenichi ever captured. A playful insect, don't let her looks deceive you: Stingwing can generate powerful electrical shocks that make her as attractive... as she is dangerous. Experienced players never underestimate them in combat.",
                 "stat": "700 / 450",
-                "habitats": "FIRE"
+                "types": "FIRE"
             },
             {
                 "id": 28,
@@ -320,7 +320,7 @@
                 "arImage": "SERIES/INVIZIMALS_HIDDEN_CHALLENGES/TYPES/FIRE/ART/28/ar.png",
                 "description": "Some Invizimals are pretty... And some are like Toxitoad! Nobody knows exactly how this toad ended up in a toxic dump, but everyone can see the effects on him: Acid attacks, toxic fumes and a personality to match is all you can expect from this true madman. Oh, and he loves Heavy Metal music. Can it get any worse?",
                 "stat": "300 / 250",
-                "habitats": "FIRE"
+                "types": "FIRE"
             },
             {
                 "id": 29,
@@ -331,7 +331,7 @@
                 "arImage": "SERIES/INVIZIMALS_HIDDEN_CHALLENGES/TYPES/FIRE/ART/29/ar.png",
                 "description": "Some Invizimals are pretty... And some are like Toxitoad! Nobody knows exactly how this toad ended up in a toxic dump, but everyone can see the effects on him: Acid attacks, toxic fumes and a personality to match is all you can expect from this true madman. Oh, and he loves Heavy Metal music. Can it get any worse?",
                 "stat": "500 / 400",
-                "habitats": "FIRE"
+                "types": "FIRE"
             },
             {
                 "id": 30,
@@ -342,7 +342,7 @@
                 "arImage": "SERIES/INVIZIMALS_HIDDEN_CHALLENGES/TYPES/FIRE/ART/30/ar.png",
                 "description": "Some Invizimals are pretty... And some are like Toxitoad! Nobody knows exactly how this toad ended up in a toxic dump, but everyone can see the effects on him: Acid attacks, toxic fumes and a personality to match is all you can expect from this true madman. Oh, and he loves Heavy Metal music. Can it get any worse?",
                 "stat": "700 / 650",
-                "habitats": "FIRE"
+                "types": "FIRE"
             },
             {
                 "id": 31,
@@ -353,7 +353,7 @@
                 "arImage": "SERIES/INVIZIMALS_HIDDEN_CHALLENGES/TYPES/FIRE/ART/31/ar.png",
                 "description": "Years ago there was a geisha named Usako, who played a decisive role in ancient Japan. This mysterious dancer was not an appreciated entertainment for the rich and noble: she was also one of the best spies and her beauty was comparable to her ability to infiltrate.",
                 "stat": "250 / 100",
-                "habitats": "FIRE"
+                "types": "FIRE"
             },
             {
                 "id": 32,
@@ -364,7 +364,7 @@
                 "arImage": "SERIES/INVIZIMALS_HIDDEN_CHALLENGES/TYPES/FIRE/ART/32/ar.png",
                 "description": "Years ago there was a geisha named Usako, who played a decisive role in ancient Japan. This mysterious dancer was not an appreciated entertainment for the rich and noble: she was also one of the best spies and her beauty was comparable to her ability to infiltrate.",
                 "stat": "500 / 250",
-                "habitats": "FIRE"
+                "types": "FIRE"
             },
             {
                 "id": 33,
@@ -375,7 +375,7 @@
                 "arImage": "SERIES/INVIZIMALS_HIDDEN_CHALLENGES/TYPES/FIRE/ART/33/ar.png",
                 "description": "Years ago there was a geisha named Usako, who played a decisive role in ancient Japan. This mysterious dancer was not an appreciated entertainment for the rich and noble: she was also one of the best spies and her beauty was comparable to her ability to infiltrate.",
                 "stat": "750 / 450",
-                "habitats": "FIRE"
+                "types": "FIRE"
             },
             {
                 "id": 34,
@@ -386,7 +386,7 @@
                 "arImage": "SERIES/INVIZIMALS_HIDDEN_CHALLENGES/TYPES/FIRE/ART/34/ar.png",
                 "description": "Contemplate Xue Hu, the powerful white tiger of the sky, fourth and most powerful protector of the tomb of the dragon emperor. Unknown by the majority, feared by all, only the warriors who defeat the first three guardians will face him in battle and will see him spread his wings in flames.",
                 "stat": "350 / 200",
-                "habitats": "FIRE"
+                "types": "FIRE"
             },
             {
                 "id": 35,
@@ -397,7 +397,7 @@
                 "arImage": "SERIES/INVIZIMALS_HIDDEN_CHALLENGES/TYPES/FIRE/ART/35/ar.png",
                 "description": "Contemplate Xue Hu, the powerful white tiger of the sky, fourth and most powerful protector of the tomb of the dragon emperor. Unknown by the majority, feared by all, only the warriors who defeat the first three guardians will face him in battle and will see him spread his wings in flames.",
                 "stat": "550 / 350",
-                "habitats": "FIRE"
+                "types": "FIRE"
             },
             {
                 "id": 36,
@@ -408,7 +408,7 @@
                 "arImage": "SERIES/INVIZIMALS_HIDDEN_CHALLENGES/TYPES/FIRE/ART/36/ar.png",
                 "description": "Contemplate Xue Hu, the powerful white tiger of the sky, fourth and most powerful protector of the tomb of the dragon emperor. Unknown by the majority, feared by all, only the warriors who defeat the first three guardians will face him in battle and will see him spread his wings in flames.",
                 "stat": "750 / 550",
-                "habitats": "FIRE"
+                "types": "FIRE"
             },
             {
                 "id": 37,
@@ -419,7 +419,7 @@
                 "arImage": "SERIES/INVIZIMALS_HIDDEN_CHALLENGES/TYPES/FIRE/ART/37/ar.png",
                 "description": "The Flamigerodon is a very intelligent Invizimal. It can create flames with its bare hands! It is so proud not to use it as a weapon. Unfortunately it can not control its power very well. You know what they say: If you play with fire, you could burn yourself!",
                 "stat": "700 / 650",
-                "habitats": ["FIRE", "LEGENDARY"]
+                "types": ["FIRE", "LEGENDARY"]
             },
             {
                 "id": 38,
@@ -430,7 +430,7 @@
                 "arImage": "SERIES/INVIZIMALS_HIDDEN_CHALLENGES/TYPES/FIRE/ART/38/ar.png",
                 "description": "Pahoehoe is a beast that lives in volcanoes all over the world. Whenever she is furious, she becomes a lava that floods everything the surrounding area, burning it to the ground. Only those who enter her palace of fire shall see her face.",
                 "stat": "700 / 700",
-                "habitats": ["FIRE", "LEGENDARY"]
+                "types": ["FIRE", "LEGENDARY"]
             },
             {
                 "id": 39,
@@ -441,7 +441,7 @@
                 "arImage": "SERIES/INVIZIMALS_HIDDEN_CHALLENGES/TYPES/FIRE/ART/39/ar.png",
                 "description": "So the Invizimals and the dinosaurs are connected in some way? Well, look at this powerful T-Rex if you need proof. The T-Rex were extinguished eons ago, but somehow they are alive and kicking... in the wave, in the Invizimal world.",
                 "stat": "750 / 700",
-                "habitats": ["FIRE", "LEGENDARY"]
+                "types": ["FIRE", "LEGENDARY"]
             },
             {
                 "id": 307,
@@ -452,7 +452,7 @@
                 "arImage": "SERIES/INVIZIMALS_HIDDEN_CHALLENGES/TYPES/FIRE/ART/307/ar.png",
                 "description": "This is a strange creature... Looks like a Flameclaw, but it's... Evil. Aggressive. Dark. The Dark Flameclaw we shall call him. What a really mean guy. Loves to show-off, like all Flameclaws do, but his attacks have been boosted and he seems to be angrier. Use him with care. We need to learn more about these new kind of Invizimals.",
                 "stat": "800 / 750",
-                "habitats": ["FIRE", "DARK"]
+                "types": ["FIRE", "DARK"]
             },
             {
                 "id": 308,
@@ -463,7 +463,7 @@
                 "arImage": "SERIES/INVIZIMALS_HIDDEN_CHALLENGES/TYPES/FIRE/ART/308/ar.png",
                 "description": "What do you get if you apply the ritual of transformation to a cute little Sandflame? Well, you get a cute little Dark Sandflame! Unsurprised? What if we told you Dark Sandflames have massive stamina, and not only that, but massive stamina recovery? Yes, you got it: Dark Sandflames keep fighting. And fighting. And fighting.",
                 "stat": "800 / 700",
-                "habitats": ["FIRE", "DARK"]
+                "types": ["FIRE", "DARK"]
             },
             {
                 "id": 309,
@@ -474,7 +474,7 @@
                 "arImage": "SERIES/INVIZIMALS_HIDDEN_CHALLENGES/TYPES/FIRE/ART/309/ar.png",
                 "description": "In the Chinese province of Fujian have been aware of the existence of blue tigers for centuries. From there comes the Dark Xue Hu: A Xue Hu was lying next to a lake on a full moon night, and by some kind of spell, his skin turned pale blue. It is an exceptional creature, which can only be obtained in the transformation ritual, so when you meet one, treat it well!",
                 "stat": "800 / 750",
-                "habitats": ["FIRE", "DARK"]
+                "types": ["FIRE", "DARK"]
             },
             {
                 "id": 322,
@@ -485,7 +485,7 @@
                 "arImage": "SERIES/INVIZIMALS_HIDDEN_CHALLENGES/TYPES/FIRE/ART/322/ar.png",
                 "description": "Fire breathing dragons have been feared in Europe since medieval ages. The most common type of dragon, the Invizimal Fire Dragon obviously does breathe fire, so don't stand in his way!!! But he also has some hidden tricks, such as the ability to summon hell, generating an electrical charge that sets everything around him in flames.",
                 "stat": "900 / 750",
-                "habitats": ["FIRE", "DRAGON"]
+                "types": ["FIRE", "DRAGON"]
             },
             {
                 "id": 323,
@@ -496,7 +496,7 @@
                 "arImage": "SERIES/INVIZIMALS_HIDDEN_CHALLENGES/TYPES/FIRE/ART/323/ar.png",
                 "description": "A four-winged dragon? And made of gold? Invizimals have some strange ways of doing things, and the Gold Dragon is no different. It is said that it was born from the jewel of the crown of an ancient pharaoh, shining more than the sun with its wings. But whatever your story, you're really going to shine in any competition when you have this creature!",
                 "stat": "850 / 850",
-                "habitats": ["FIRE", "DRAGON"]
+                "types": ["FIRE", "DRAGON"]
             },
             {
                 "id": 324,
@@ -507,7 +507,7 @@
                 "arImage": "SERIES/INVIZIMALS_HIDDEN_CHALLENGES/TYPES/FIRE/ART/323/ar.png",
                 "description": "Look! Is that a mountain of ice? Oh, it can not be, it's moving! Wait, it's Erebus, a mythical creature from the Antarctic! Great as a mountain, cold as ice, Erebus does not want problems with the outside world. But if you are looking for problems, you will find them! This creature has lived in solitude for millennia and knows how to defend itself!",
                 "stat": "150 / 300",
-                "habitats": ["ICE"]
+                "types": ["ICE"]
             },
             {
                 "id": 325,
@@ -518,7 +518,7 @@
                 "arImage": "SERIES/INVIZIMALS_HIDDEN_CHALLENGES/TYPES/FIRE/ART/323/ar.png",
                 "description": "Look! Is that a mountain of ice? Oh, it can not be, it's moving! Wait, it's Erebus, a mythical creature from the Antarctic! Great as a mountain, cold as ice, Erebus does not want problems with the outside world. But if you are looking for problems, you will find them! This creature has lived in solitude for millennia and knows how to defend itself!",
                 "stat": "250 / 550",
-                "habitats": ["ICE"]
+                "types": ["ICE"]
             },
             {
                 "id": 326,
@@ -529,7 +529,7 @@
                 "arImage": "SERIES/INVIZIMALS_HIDDEN_CHALLENGES/TYPES/FIRE/ART/323/ar.png",
                 "description": "Look! Is that a mountain of ice? Oh, it can not be, it's moving! Wait, it's Erebus, a mythical creature from the Antarctic! Great as a mountain, cold as ice, Erebus does not want problems with the outside world. But if you are looking for problems, you will find them! This creature has lived in solitude for millennia and knows how to defend itself!",
                 "stat": "550 / 700",
-                "habitats": ["ICE"]
+                "types": ["ICE"]
             },
             {
                 "id": 327,
@@ -540,7 +540,7 @@
                 "arImage": "SERIES/INVIZIMALS_HIDDEN_CHALLENGES/TYPES/FIRE/ART/323/ar.png",
                 "description": "Freezefur is a big angry beast! These Invizimals are fierce, violent and impatient... be careful when you approach one of them, they are very territorial creatures... Only the best Invizimals hunters should dare to do it, the rest could get into serious problems!",
                 "stat": "350 / 250",
-                "habitats": ["ICE"]
+                "types": ["ICE"]
             },
             {
                 "id": 328,
@@ -551,7 +551,7 @@
                 "arImage": "SERIES/INVIZIMALS_HIDDEN_CHALLENGES/TYPES/FIRE/ART/323/ar.png",
                 "description": "Freezefur is a big angry beast! These Invizimals are fierce, violent and impatient... be careful when you approach one of them, they are very territorial creatures... Only the best Invizimals hunters should dare to do it, the rest could get into serious problems!",
                 "stat": "450 / 400",
-                "habitats": ["ICE"]
+                "types": ["ICE"]
             },
             {
                 "id": 329,
@@ -562,7 +562,7 @@
                 "arImage": "SERIES/INVIZIMALS_HIDDEN_CHALLENGES/TYPES/FIRE/ART/323/ar.png",
                 "description": "Freezefur is a big angry beast! These Invizimals are fierce, violent and impatient... be careful when you approach one of them, they are very territorial creatures... Only the best Invizimals hunters should dare to do it, the rest could get into serious problems!",
                 "stat": "700 / 550",
-                "habitats": ["ICE"]
+                "types": ["ICE"]
             },
             {
                 "id": 330,
@@ -573,7 +573,7 @@
                 "arImage": "SERIES/INVIZIMALS_HIDDEN_CHALLENGES/TYPES/FIRE/ART/323/ar.png",
                 "description": "The Native Americans feared the Headhorn, the bison, but they also needed this creature. By their wool flesh or milk the bison were key to many Indian nations. In the Invizimal world, the Headhorns have developed new defences. Have you ever seen a bison use its horns like a boomerang? Well, then you're going to be surprised!",
                 "stat": "300 / 250",
-                "habitats": ["ICE"]
+                "types": ["ICE"]
             },
             {
                 "id": 331,
@@ -584,7 +584,7 @@
                 "arImage": "SERIES/INVIZIMALS_HIDDEN_CHALLENGES/TYPES/FIRE/ART/323/ar.png",
                 "description": "The Native Americans feared the Headhorn, the bison, but they also needed this creature. By their wool flesh or milk the bison were key to many Indian nations. In the Invizimal world, the Headhorns have developed new defences. Have you ever seen a bison use its horns like a boomerang? Well, then you're going to be surprised!",
                 "stat": "500 / 300",
-                "habitats": ["ICE"]
+                "types": ["ICE"]
             },
             {
                 "id": 332,
@@ -595,7 +595,7 @@
                 "arImage": "SERIES/INVIZIMALS_HIDDEN_CHALLENGES/TYPES/FIRE/ART/323/ar.png",
                 "description": "The Native Americans feared the Headhorn, the bison, but they also needed this creature. By their wool flesh or milk the bison were key to many Indian nations. In the Invizimal world, the Headhorns have developed new defences. Have you ever seen a bison use its horns like a boomerang? Well, then you're going to be surprised!",
                 "stat": "700 / 600",
-                "habitats": ["ICE"]
+                "types": ["ICE"]
             },
             {
                 "id": 333,
@@ -606,7 +606,7 @@
                 "arImage": "SERIES/INVIZIMALS_HIDDEN_CHALLENGES/TYPES/FIRE/ART/323/ar.png",
                 "description": "Here is the noble Hilltopper. Arising from the forests of central Europe, Hilltoppers love to climb high mountains and jump from peak to peak. But don't get it wrong, this is not just a happy jumping Invizimal. Mess with a Hilltopper, and you'll have to face his sharp horns and strong hooves.",
                 "stat": "100 / 150",
-                "habitats": ["ICE"]
+                "types": ["ICE"]
             },
             {
                 "id": 334,
@@ -617,7 +617,7 @@
                 "arImage": "SERIES/INVIZIMALS_HIDDEN_CHALLENGES/TYPES/FIRE/ART/323/ar.png",
                 "description": "Here is the noble Hilltopper. Arising from the forests of central Europe, Hilltoppers love to climb high mountains and jump from peak to peak. But don't get it wrong, this is not just a happy jumping Invizimal. Mess with a Hilltopper, and you'll have to face his sharp horns and strong hooves.",
                 "stat": "300 / 450",
-                "habitats": ["ICE"]
+                "types": ["ICE"]
             },
             {
                 "id": 335,
@@ -628,7 +628,7 @@
                 "arImage": "SERIES/INVIZIMALS_HIDDEN_CHALLENGES/TYPES/FIRE/ART/323/ar.png",
                 "description": "Here is the noble Hilltopper. Arising from the forests of central Europe, Hilltoppers love to climb high mountains and jump from peak to peak. But don't get it wrong, this is not just a happy jumping Invizimal. Mess with a Hilltopper, and you'll have to face his sharp horns and strong hooves.",
                 "stat": "600 / 600",
-                "habitats": ["ICE"]
+                "types": ["ICE"]
             },
             {
                 "id": 336,
@@ -639,7 +639,7 @@
                 "arImage": "SERIES/INVIZIMALS_HIDDEN_CHALLENGES/TYPES/FIRE/ART/323/ar.png",
                 "description": "Icelions live in the Polar Regions ,very rarely making contact with humans. A lonely but brutal hunter, no creature is a match for his strength. Still, this icy giant only has one known weak spot: his body is made completely of ice and so direct sunlight and heat can make him melt.",
                 "stat": "350 / 250",
-                "habitats": ["ICE"]
+                "types": ["ICE"]
             },
             {
                 "id": 337,
@@ -650,7 +650,7 @@
                 "arImage": "SERIES/INVIZIMALS_HIDDEN_CHALLENGES/TYPES/FIRE/ART/323/ar.png",
                 "description": "Icelions live in the Polar Regions ,very rarely making contact with humans. A lonely but brutal hunter, no creature is a match for his strength. Still, this icy giant only has one known weak spot: his body is made completely of ice and so direct sunlight and heat can make him melt.",
                 "stat": "450 / 450",
-                "habitats": ["ICE"]
+                "types": ["ICE"]
             },
             {
                 "id": 338,
@@ -661,7 +661,7 @@
                 "arImage": "SERIES/INVIZIMALS_HIDDEN_CHALLENGES/TYPES/FIRE/ART/323/ar.png",
                 "description": "Icelions live in the Polar Regions ,very rarely making contact with humans. A lonely but brutal hunter, no creature is a match for his strength. Still, this icy giant only has one known weak spot: his body is made completely of ice and so direct sunlight and heat can make him melt.",
                 "stat": "750 / 650",
-                "habitats": ["ICE"]
+                "types": ["ICE"]
             },
             {
                 "id": 339,
@@ -672,7 +672,7 @@
                 "arImage": "SERIES/INVIZIMALS_HIDDEN_CHALLENGES/TYPES/FIRE/ART/323/ar.png",
                 "description": "Ironbugs are the spirits of Japanese warriors from centuries ago. Legend says that their souls live in the snowy mountains in the north of Hokkaido, building swords and shields from ice preparing for battle. Ironbugs are thus noble and strong, loyal Invizimals you should keep and grow. Don't let the looks of an Ironbug pup deceive you: in this small creature lies the spirit of a warrior.",
                 "stat": "150 / 350",
-                "habitats": ["ICE"]
+                "types": ["ICE"]
             },
             {
                 "id": 340,
@@ -683,7 +683,7 @@
                 "arImage": "SERIES/INVIZIMALS_HIDDEN_CHALLENGES/TYPES/FIRE/ART/323/ar.png",
                 "description": "Ironbugs are the spirits of Japanese warriors from centuries ago. Legend says that their souls live in the snowy mountains in the north of Hokkaido, building swords and shields from ice preparing for battle. Ironbugs are thus noble and strong, loyal Invizimals you should keep and grow. Don't let the looks of an Ironbug pup deceive you: in this small creature lies the spirit of a warrior.",
                 "stat": "450 / 500",
-                "habitats": ["ICE"]
+                "types": ["ICE"]
             },
             {
                 "id": 341,
@@ -694,7 +694,7 @@
                 "arImage": "SERIES/INVIZIMALS_HIDDEN_CHALLENGES/TYPES/FIRE/ART/323/ar.png",
                 "description": "Ironbugs are the spirits of Japanese warriors from centuries ago. Legend says that their souls live in the snowy mountains in the north of Hokkaido, building swords and shields from ice preparing for battle. Ironbugs are thus noble and strong, loyal Invizimals you should keep and grow. Don't let the looks of an Ironbug pup deceive you: in this small creature lies the spirit of a warrior.",
                 "stat": "550 / 700",
-                "habitats": ["ICE"]
+                "types": ["ICE"]
             },
             {
                 "id": 342,
@@ -705,7 +705,7 @@
                 "arImage": "SERIES/INVIZIMALS_HIDDEN_CHALLENGES/TYPES/FIRE/ART/323/ar.png",
                 "description": "Neko-Suke was the name of one of Japan's most famous ninja... he was so stealthy, his enemies believed he could turn into a cat! Guess what? He actually could! Neko-Suke is a master of deception, stealth and mystery! You will only see one if he wants you to see it.",
                 "stat": "350 / 200",
-                "habitats": ["ICE"]
+                "types": ["ICE"]
             },
             {
                 "id": 343,
@@ -716,7 +716,7 @@
                 "arImage": "SERIES/INVIZIMALS_HIDDEN_CHALLENGES/TYPES/FIRE/ART/323/ar.png",
                 "description": "Neko-Suke was the name of one of Japan's most famous ninja... he was so stealthy, his enemies believed he could turn into a cat! Guess what? He actually could! Neko-Suke is a master of deception, stealth and mystery! You will only see one if he wants you to see it.",
                 "stat": "550 / 350",
-                "habitats": ["ICE"]
+                "types": ["ICE"]
             },
             {
                 "id": 344,
@@ -727,7 +727,7 @@
                 "arImage": "SERIES/INVIZIMALS_HIDDEN_CHALLENGES/TYPES/FIRE/ART/323/ar.png",
                 "description": "Neko-Suke was the name of one of Japan's most famous ninja... he was so stealthy, his enemies believed he could turn into a cat! Guess what? He actually could! Neko-Suke is a master of deception, stealth and mystery! You will only see one if he wants you to see it.",
                 "stat": "750 / 450",
-                "habitats": ["ICE"]
+                "types": ["ICE"]
             },
             {
                 "id": 345,
@@ -738,7 +738,7 @@
                 "arImage": "SERIES/INVIZIMALS_HIDDEN_CHALLENGES/TYPES/FIRE/ART/323/ar.png",
                 "description": "Poor Sabretooth is the guardian of the park, which protects him in the long winter nights. Very strong, but silly, he does his job very well and dreams of becoming a superhero, but in reality he is an insecure Invizimal who only wants company and friends.",
                 "stat": "300 / 250",
-                "habitats": ["ICE"]
+                "types": ["ICE"]
             },
             {
                 "id": 346,
@@ -749,7 +749,7 @@
                 "arImage": "SERIES/INVIZIMALS_HIDDEN_CHALLENGES/TYPES/FIRE/ART/323/ar.png",
                 "description": "Poor Sabretooth is the guardian of the park, which protects him in the long winter nights. Very strong, but silly, he does his job very well and dreams of becoming a superhero, but in reality he is an insecure Invizimal who only wants company and friends.",
                 "stat": "400 / 450",
-                "habitats": ["ICE"]
+                "types": ["ICE"]
             },
             {
                 "id": 347,
@@ -760,7 +760,7 @@
                 "arImage": "SERIES/INVIZIMALS_HIDDEN_CHALLENGES/TYPES/FIRE/ART/323/ar.png",
                 "description": "Poor Sabretooth is the guardian of the park, which protects him in the long winter nights. Very strong, but silly, he does his job very well and dreams of becoming a superhero, but in reality he is an insecure Invizimal who only wants company and friends.",
                 "stat": "600 / 650",
-                "habitats": ["ICE"]
+                "types": ["ICE"]
             },
             {
                 "id": 348,
@@ -771,7 +771,7 @@
                 "arImage": "SERIES/INVIZIMALS_HIDDEN_CHALLENGES/TYPES/FIRE/ART/323/ar.png",
                 "description": "Did you know that dinosaurs laid eggs, right? Well, Skysaurs do too. But one in his life. So it is not surprising that these flying dinosaurs spend almost all day watching their single egg. Protecting it from harm. But beware, your egg is also your best weapon. So get ready to dodge a deadly release of an egg.",
                 "stat": "200 / 250",
-                "habitats": ["ICE"]
+                "types": ["ICE"]
             },
             {
                 "id": 349,
@@ -782,7 +782,7 @@
                 "arImage": "SERIES/INVIZIMALS_HIDDEN_CHALLENGES/TYPES/FIRE/ART/323/ar.png",
                 "description": "Did you know that dinosaurs laid eggs, right? Well, Skysaurs do too. But one in his life. So it is not surprising that these flying dinosaurs spend almost all day watching their single egg. Protecting it from harm. But beware, your egg is also your best weapon. So get ready to dodge a deadly release of an egg.",
                 "stat": "250 / 450",
-                "habitats": ["ICE"]
+                "types": ["ICE"]
             },
             {
                 "id": 350,
@@ -793,7 +793,7 @@
                 "arImage": "SERIES/INVIZIMALS_HIDDEN_CHALLENGES/TYPES/FIRE/ART/323/ar.png",
                 "description": "Did you know that dinosaurs laid eggs, right? Well, Skysaurs do too. But one in his life. So it is not surprising that these flying dinosaurs spend almost all day watching their single egg. Protecting it from harm. But beware, your egg is also your best weapon. So get ready to dodge a deadly release of an egg.",
                 "stat": "450 / 700",
-                "habitats": ["ICE"]
+                "types": ["ICE"]
             },
             {
                 "id": 351,
@@ -804,7 +804,7 @@
                 "arImage": "SERIES/INVIZIMALS_HIDDEN_CHALLENGES/TYPES/FIRE/ART/323/ar.png",
                 "description": "The Skytalons are huge eagles worshiped by the Native Americans who lived in the prairies of what are now the United States. Noble, loyal and brave, a Skytalon never gets into trouble and, if he does, he will never ask for help or compassion: These creatures can take good care of themselves or of you!",
                 "stat": "150 / 200",
-                "habitats": ["ICE"]
+                "types": ["ICE"]
             },
             {
                 "id": 352,
@@ -815,7 +815,7 @@
                 "arImage": "SERIES/INVIZIMALS_HIDDEN_CHALLENGES/TYPES/FIRE/ART/323/ar.png",
                 "description": "The Skytalons are huge eagles worshiped by the Native Americans who lived in the prairies of what are now the United States. Noble, loyal and brave, a Skytalon never gets into trouble and, if he does, he will never ask for help or compassion: These creatures can take good care of themselves or of you!",
                 "stat": "350 / 350",
-                "habitats": ["ICE"]
+                "types": ["ICE"]
             },
             {
                 "id": 353,
@@ -826,7 +826,7 @@
                 "arImage": "SERIES/INVIZIMALS_HIDDEN_CHALLENGES/TYPES/FIRE/ART/323/ar.png",
                 "description": "The Skytalons are huge eagles worshiped by the Native Americans who lived in the prairies of what are now the United States. Noble, loyal and brave, a Skytalon never gets into trouble and, if he does, he will never ask for help or compassion: These creatures can take good care of themselves or of you!",
                 "stat": "700 / 500",
-                "habitats": ["ICE"]
+                "types": ["ICE"]
             },
             {
                 "id": 354,
@@ -837,7 +837,7 @@
                 "arImage": "SERIES/INVIZIMALS_HIDDEN_CHALLENGES/TYPES/FIRE/ART/323/ar.png",
                 "description": "Don't be fooled by the innocent, sweet looks of the Steeltail. This bird may look friendly, but her tail is a powerful weapon. So whenever you come across a Steeltail, and see her smile at you candidly... enjoy the moment! A second later, she will turn around and strike.",
                 "stat": "300 / 250",
-                "habitats": ["ICE"]
+                "types": ["ICE"]
             },
             {
                 "id": 355,
@@ -848,7 +848,7 @@
                 "arImage": "SERIES/INVIZIMALS_HIDDEN_CHALLENGES/TYPES/FIRE/ART/323/ar.png",
                 "description": "Don't be fooled by the innocent, sweet looks of the Steeltail. This bird may look friendly, but her tail is a powerful weapon. So whenever you come across a Steeltail, and see her smile at you candidly... enjoy the moment! A second later, she will turn around and strike.",
                 "stat": "400 / 400",
-                "habitats": ["ICE"]
+                "types": ["ICE"]
             },
             {
                 "id": 356,
@@ -859,7 +859,7 @@
                 "arImage": "SERIES/INVIZIMALS_HIDDEN_CHALLENGES/TYPES/FIRE/ART/323/ar.png",
                 "description": "Don't be fooled by the innocent, sweet looks of the Steeltail. This bird may look friendly, but her tail is a powerful weapon. So whenever you come across a Steeltail, and see her smile at you candidly... enjoy the moment! A second later, she will turn around and strike.",
                 "stat": "550 / 600",
-                "habitats": ["ICE"]
+                "types": ["ICE"]
             },
             {
                 "id": 357,
@@ -870,7 +870,7 @@
                 "arImage": "SERIES/INVIZIMALS_HIDDEN_CHALLENGES/TYPES/FIRE/ART/323/ar.png",
                 "description": "Don't be fooled by the innocent, sweet looks of the Steeltail. This bird may look friendly, but her tail is a powerful weapon. So whenever you come across a Steeltail, and see her smile at you candidly... enjoy the moment! A second later, she will turn around and strike.",
                 "stat": "350 / 200",
-                "habitats": ["ICE"]
+                "types": ["ICE"]
             },
             {
                 "id": 358,
@@ -881,7 +881,7 @@
                 "arImage": "SERIES/INVIZIMALS_HIDDEN_CHALLENGES/TYPES/FIRE/ART/323/ar.png",
                 "description": "Don't be fooled by the innocent, sweet looks of the Steeltail. This bird may look friendly, but her tail is a powerful weapon. So whenever you come across a Steeltail, and see her smile at you candidly... enjoy the moment! A second later, she will turn around and strike.",
                 "stat": "400 / 400",
-                "habitats": ["ICE"]
+                "types": ["ICE"]
             },
             {
                 "id": 359,
@@ -892,7 +892,7 @@
                 "arImage": "SERIES/INVIZIMALS_HIDDEN_CHALLENGES/TYPES/FIRE/ART/323/ar.png",
                 "description": "Don't be fooled by the innocent, sweet looks of the Steeltail. This bird may look friendly, but her tail is a powerful weapon. So whenever you come across a Steeltail, and see her smile at you candidly... enjoy the moment! A second later, she will turn around and strike.",
                 "stat": "600 / 600",
-                "habitats": ["ICE"]
+                "types": ["ICE"]
             },
             {
                 "id": 360,
@@ -903,7 +903,7 @@
                 "arImage": "SERIES/INVIZIMALS_HIDDEN_CHALLENGES/TYPES/FIRE/ART/323/ar.png",
                 "description": "Don't be fooled by the innocent, sweet looks of the Steeltail. This bird may look friendly, but her tail is a powerful weapon. So whenever you come across a Steeltail, and see her smile at you candidly... enjoy the moment! A second later, she will turn around and strike.",
                 "stat": "250 / 150",
-                "habitats": ["ICE"]
+                "types": ["ICE"]
             },
             {
                 "id": 361,
@@ -914,7 +914,7 @@
                 "arImage": "SERIES/INVIZIMALS_HIDDEN_CHALLENGES/TYPES/FIRE/ART/323/ar.png",
                 "description": "Don't be fooled by the innocent, sweet looks of the Steeltail. This bird may look friendly, but her tail is a powerful weapon. So whenever you come across a Steeltail, and see her smile at you candidly... enjoy the moment! A second later, she will turn around and strike.",
                 "stat": "300 / 300",
-                "habitats": ["ICE"]
+                "types": ["ICE"]
             },
             {
                 "id": 362,
@@ -925,7 +925,7 @@
                 "arImage": "SERIES/INVIZIMALS_HIDDEN_CHALLENGES/TYPES/FIRE/ART/323/ar.png",
                 "description": "Don't be fooled by the innocent, sweet looks of the Steeltail. This bird may look friendly, but her tail is a powerful weapon. So whenever you come across a Steeltail, and see her smile at you candidly... enjoy the moment! A second later, she will turn around and strike.",
                 "stat": "450 / 600",
-                "habitats": ["ICE"]
+                "types": ["ICE"]
             },
             {
                 "id": 363,
@@ -936,7 +936,7 @@
                 "arImage": "SERIES/INVIZIMALS_HIDDEN_CHALLENGES/TYPES/FIRE/ART/323/ar.png",
                 "description": "Don't be fooled by the innocent, sweet looks of the Steeltail. This bird may look friendly, but her tail is a powerful weapon. So whenever you come across a Steeltail, and see her smile at you candidly... enjoy the moment! A second later, she will turn around and strike.",
                 "stat": "650 / 650",
-                "habitats": ["ICE", "LEGENDARY"]
+                "types": ["ICE", "LEGENDARY"]
             },
             {
                 "id": 364,
@@ -947,7 +947,7 @@
                 "arImage": "SERIES/INVIZIMALS_HIDDEN_CHALLENGES/TYPES/FIRE/ART/323/ar.png",
                 "description": "Don't be fooled by the innocent, sweet looks of the Steeltail. This bird may look friendly, but her tail is a powerful weapon. So whenever you come across a Steeltail, and see her smile at you candidly... enjoy the moment! A second later, she will turn around and strike.",
                 "stat": "750 / 650",
-                "habitats": ["ICE", "LEGENDARY"]
+                "types": ["ICE", "LEGENDARY"]
             },
             {
                 "id": 365,
@@ -958,7 +958,7 @@
                 "arImage": "SERIES/INVIZIMALS_HIDDEN_CHALLENGES/TYPES/FIRE/ART/323/ar.png",
                 "description": "Don't be fooled by the innocent, sweet looks of the Steeltail. This bird may look friendly, but her tail is a powerful weapon. So whenever you come across a Steeltail, and see her smile at you candidly... enjoy the moment! A second later, she will turn around and strike.",
                 "stat": "650 / 700",
-                "habitats": ["ICE"]
+                "types": ["ICE"]
             },
             {
                 "id": 366,
@@ -969,7 +969,7 @@
                 "arImage": "SERIES/INVIZIMALS_HIDDEN_CHALLENGES/TYPES/FIRE/ART/323/ar.png",
                 "description": "Don't be fooled by the innocent, sweet looks of the Steeltail. This bird may look friendly, but her tail is a powerful weapon. So whenever you come across a Steeltail, and see her smile at you candidly... enjoy the moment! A second later, she will turn around and strike.",
                 "stat": "650 / 650",
-                "habitats": ["ICE"]
+                "types": ["ICE"]
             },
             {
                 "id": 367,
@@ -980,7 +980,7 @@
                 "arImage": "SERIES/INVIZIMALS_HIDDEN_CHALLENGES/TYPES/FIRE/ART/323/ar.png",
                 "description": "Don't be fooled by the innocent, sweet looks of the Steeltail. This bird may look friendly, but her tail is a powerful weapon. So whenever you come across a Steeltail, and see her smile at you candidly... enjoy the moment! A second later, she will turn around and strike.",
                 "stat": "650 / 750",
-                "habitats": ["ICE", "LEGENDARY"]
+                "types": ["ICE", "LEGENDARY"]
             },
             {
                 "id": 368,
@@ -991,7 +991,7 @@
                 "arImage": "SERIES/INVIZIMALS_HIDDEN_CHALLENGES/TYPES/FIRE/ART/323/ar.png",
                 "description": "Don't be fooled by the innocent, sweet looks of the Steeltail. This bird may look friendly, but her tail is a powerful weapon. So whenever you come across a Steeltail, and see her smile at you candidly... enjoy the moment! A second later, she will turn around and strike.",
                 "stat": "850 / 700",
-                "habitats": ["ICE", "DARK"]
+                "types": ["ICE", "DARK"]
             },
             {
                 "id": 369,
@@ -1002,7 +1002,7 @@
                 "arImage": "SERIES/INVIZIMALS_HIDDEN_CHALLENGES/TYPES/FIRE/ART/323/ar.png",
                 "description": "Don't be fooled by the innocent, sweet looks of the Steeltail. This bird may look friendly, but her tail is a powerful weapon. So whenever you come across a Steeltail, and see her smile at you candidly... enjoy the moment! A second later, she will turn around and strike.",
                 "stat": "750 / 900",
-                "habitats": ["ICE", "DRAGON"]
+                "types": ["ICE", "DRAGON"]
             },
             {
                 "id": 370,
@@ -1013,7 +1013,7 @@
                 "arImage": "SERIES/INVIZIMALS_HIDDEN_CHALLENGES/TYPES/FIRE/ART/323/ar.png",
                 "description": "Don't be fooled by the innocent, sweet looks of the Steeltail. This bird may look friendly, but her tail is a powerful weapon. So whenever you come across a Steeltail, and see her smile at you candidly... enjoy the moment! A second later, she will turn around and strike.",
                 "stat": "800 / 850",
-                "habitats": ["ICE", "DRAGON"]
+                "types": ["ICE", "DRAGON"]
             }
         ]
     }

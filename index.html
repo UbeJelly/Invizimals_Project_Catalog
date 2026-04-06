@@ -655,9 +655,9 @@ function Card3D(card, ev) {
 function setupFilters(data) {
     const filterPanel = document.getElementById('filterPanel');
     
-    // Obtain unique habitats from all habitat arrays
-    const allHabitats = data.flatMap(inv => inv.habitats || [inv.habitat]);
-    const habitats = [...new Set(allHabitats)];
+    // Obtain unique types from all type arrays
+    const allTypes = data.flatMap(inv => inv.types || [inv.type]);
+    const types = [...new Set(allTypes)];
     
     // Create "All" option
     const allOption = document.createElement('div');
@@ -666,12 +666,12 @@ function setupFilters(data) {
     allOption.dataset.filter = 'all';
     filterPanel.appendChild(allOption);
     
-    // Create options for each habitat
-    habitats.forEach(habitat => {
+    // Create options for each type
+    types.forEach(type => {
         const option = document.createElement('div');
         option.className = 'filter-option';
-        option.textContent = habitat;
-        option.dataset.filter = habitat;
+        option.textContent = type;
+        option.dataset.filter = type;
         filterPanel.appendChild(option);
     });
     
@@ -694,9 +694,9 @@ function applyFilters() {
     let filteredData = [...invizimalsData];
     if (currentFilter !== 'all') {
         filteredData = filteredData.filter(inv => {
-            // Compatible with the new array habitats and the old individual habitat
-            const invHabitats = inv.habitats || [inv.habitat];
-            return invHabitats.includes(currentFilter);
+            // Compatible with the new array types and the old individual type
+            const invTypes = inv.types || [inv.type];
+            return invTypes.includes(currentFilter);
         });
     }
     const searchTerm = searchInput.value.toLowerCase();
