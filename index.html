@@ -599,6 +599,11 @@ function renderInvizimals(data) {
         card.setAttribute('data-id', inv.id);
         card.innerHTML = `
             <img loading="lazy" src="${inv.image}" alt="${inv.name}">
+
+            <img loading="lazy" src="${inv.image}" alt="${inv.name}" class="spotlight"
+                style="image-rendering: optimizeSpeed; filter: brightness(0) invert(1); position: fixed; display: none; top: 0; left: 0;"
+            >
+            
             <h3>${inv.name}</h3>
             <p>Type: ${inv.type}</p>
         `;
@@ -626,7 +631,11 @@ function renderInvizimals(data) {
         card.addEventListener('mouseleave', (ev) => {
             let img = card.querySelector('img');
             img.style.transform = 'rotateX(0deg) rotateY(0deg)';
-            img.style.filter = 'brightness(1)';
+
+            let spotlight = card.querySelector('img.spotlight');
+            spotlight.style.transform = 'rotateX(0deg) rotateY(0deg)';
+            spotlight.style.display = `none`;
+            //img.style.filter = 'brightness(1)';
         });
     });
 }
@@ -645,10 +654,16 @@ function Card3D(card, ev) {
     let mouseY = ev.offsetY;
     let rotateY = map(mouseX, 0, 180, -25, 25);
     let rotateX = map(mouseY, 0, 250, 25, -25);
-    let brightness = map(mouseY, 0, 250, 1.5, 0.5);
+    //let brightness = map(mouseY, 0, 250, 1.5, 0.5);
+
+    // Spotlight card effects inspired by Scrydex    
+    let spotlight = card.querySelector('img.spotlight');
+    spotlight.style.display = `block`;
+    spotlight.style.mask = `radial-gradient(circle at ${mouseX}px ${mouseY}px, rgba(255, 255, 255, 0.35), transparent 75%)`;
+    spotlight.style.transform = `rotateX(${rotateX}deg) rotateY(${rotateY}deg) scaleX(0.875) scaleY(0.85)`;
 
     img.style.transform = `rotateX(${rotateX}deg) rotateY(${rotateY}deg)`;
-    img.style.filter = `brightness(${brightness})`;
+    //img.style.filter = `brightness(${brightness})`;
 }
 
 // Configure filters
