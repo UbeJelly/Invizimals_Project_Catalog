@@ -1,6 +1,6 @@
 {
     "catalog": {
-        "total_cards": 77,
+        "total_cards": 91,
         "total_types": [
             {
                 "type": "fire",
@@ -8,7 +8,7 @@
             },
             {
                 "type": "ice",
-                "total": 33
+                "total": 47
             }
         ]
     },
@@ -860,6 +860,160 @@
                 "description": "Don't be fooled by the innocent, sweet looks of the Steeltail. This bird may look friendly, but her tail is a powerful weapon. So whenever you come across a Steeltail, and see her smile at you candidly... enjoy the moment! A second later, she will turn around and strike.",
                 "stat": "550 / 600",
                 "habitats": ["ICE"]
+            },
+            {
+                "id": 357,
+                "name": "Tunderwulfe",
+                "type": "Ice / PUP / 357",
+                "image": "SERIES/INVIZIMALS_HIDDEN_CHALLENGES/TYPES/ICE/ART/34/front.jpg",
+                "image2": "SERIES/INVIZIMALS_HIDDEN_CHALLENGES/TYPES/ICE/ART/34/character.png",
+                "arImage": "SERIES/INVIZIMALS_HIDDEN_CHALLENGES/TYPES/FIRE/ART/323/ar.png",
+                "description": "Don't be fooled by the innocent, sweet looks of the Steeltail. This bird may look friendly, but her tail is a powerful weapon. So whenever you come across a Steeltail, and see her smile at you candidly... enjoy the moment! A second later, she will turn around and strike.",
+                "stat": "350 / 200",
+                "habitats": ["ICE"]
+            },
+            {
+                "id": 358,
+                "name": "Tunderwulfe",
+                "type": "Ice / COLT / 358",
+                "image": "SERIES/INVIZIMALS_HIDDEN_CHALLENGES/TYPES/ICE/ART/35/front.jpg",
+                "image2": "SERIES/INVIZIMALS_HIDDEN_CHALLENGES/TYPES/ICE/ART/35/character.png",
+                "arImage": "SERIES/INVIZIMALS_HIDDEN_CHALLENGES/TYPES/FIRE/ART/323/ar.png",
+                "description": "Don't be fooled by the innocent, sweet looks of the Steeltail. This bird may look friendly, but her tail is a powerful weapon. So whenever you come across a Steeltail, and see her smile at you candidly... enjoy the moment! A second later, she will turn around and strike.",
+                "stat": "400 / 400",
+                "habitats": ["ICE"]
+            },
+            {
+                "id": 359,
+                "name": "Tunderwulfe",
+                "type": "Ice / MAX / 359",
+                "image": "SERIES/INVIZIMALS_HIDDEN_CHALLENGES/TYPES/ICE/ART/36/front.jpg",
+                "image2": "SERIES/INVIZIMALS_HIDDEN_CHALLENGES/TYPES/ICE/ART/36/character.png",
+                "arImage": "SERIES/INVIZIMALS_HIDDEN_CHALLENGES/TYPES/FIRE/ART/323/ar.png",
+                "description": "Don't be fooled by the innocent, sweet looks of the Steeltail. This bird may look friendly, but her tail is a powerful weapon. So whenever you come across a Steeltail, and see her smile at you candidly... enjoy the moment! A second later, she will turn around and strike.",
+                "stat": "600 / 600",
+                "habitats": ["ICE"]
+            },
+            {
+                "id": 360,
+                "name": "Zaglossus",
+                "type": "Ice / PUP / 360",
+                "image": "SERIES/INVIZIMALS_HIDDEN_CHALLENGES/TYPES/ICE/ART/37/front.jpg",
+                "image2": "SERIES/INVIZIMALS_HIDDEN_CHALLENGES/TYPES/ICE/ART/37/character.png",
+                "arImage": "SERIES/INVIZIMALS_HIDDEN_CHALLENGES/TYPES/FIRE/ART/323/ar.png",
+                "description": "Don't be fooled by the innocent, sweet looks of the Steeltail. This bird may look friendly, but her tail is a powerful weapon. So whenever you come across a Steeltail, and see her smile at you candidly... enjoy the moment! A second later, she will turn around and strike.",
+                "stat": "250 / 150",
+                "habitats": ["ICE"]
+            },
+            {
+                "id": 361,
+                "name": "Zaglossus",
+                "type": "Ice / COLT / 361",
+                "image": "SERIES/INVIZIMALS_HIDDEN_CHALLENGES/TYPES/ICE/ART/38/front.jpg",
+                "image2": "SERIES/INVIZIMALS_HIDDEN_CHALLENGES/TYPES/ICE/ART/38/character.png",
+                "arImage": "SERIES/INVIZIMALS_HIDDEN_CHALLENGES/TYPES/FIRE/ART/323/ar.png",
+                "description": "Don't be fooled by the innocent, sweet looks of the Steeltail. This bird may look friendly, but her tail is a powerful weapon. So whenever you come across a Steeltail, and see her smile at you candidly... enjoy the moment! A second later, she will turn around and strike.",
+                "stat": "300 / 300",
+                "habitats": ["ICE"]
+            },
+            {
+                "id": 362,
+                "name": "Zaglossus",
+                "type": "Ice / MAX / 362",
+                "image": "SERIES/INVIZIMALS_HIDDEN_CHALLENGES/TYPES/ICE/ART/39/front.jpg",
+                "image2": "SERIES/INVIZIMALS_HIDDEN_CHALLENGES/TYPES/ICE/ART/39/character.png",
+                "arImage": "SERIES/INVIZIMALS_HIDDEN_CHALLENGES/TYPES/FIRE/ART/323/ar.png",
+                "description": "Don't be fooled by the innocent, sweet looks of the Steeltail. This bird may look friendly, but her tail is a powerful weapon. So whenever you come across a Steeltail, and see her smile at you candidly... enjoy the moment! A second later, she will turn around and strike.",
+                "stat": "450 / 600",
+                "habitats": ["ICE"]
+            },
+            {
+                "id": 363,
+                "name": "Sanctacaris",
+                "type": "Ice / MAX / 363",
+                "image": "SERIES/INVIZIMALS_HIDDEN_CHALLENGES/TYPES/ICE/ART/40/front.jpg",
+                "image2": "SERIES/INVIZIMALS_HIDDEN_CHALLENGES/TYPES/ICE/ART/40/character.png",
+                "arImage": "SERIES/INVIZIMALS_HIDDEN_CHALLENGES/TYPES/FIRE/ART/323/ar.png",
+                "description": "Don't be fooled by the innocent, sweet looks of the Steeltail. This bird may look friendly, but her tail is a powerful weapon. So whenever you come across a Steeltail, and see her smile at you candidly... enjoy the moment! A second later, she will turn around and strike.",
+                "stat": "650 / 650",
+                "habitats": ["ICE", "LEGENDARY"]
+            },
+            {
+                "id": 364,
+                "name": "Scissorbeak",
+                "type": "Ice / MAX / 364",
+                "image": "SERIES/INVIZIMALS_HIDDEN_CHALLENGES/TYPES/ICE/ART/41/front.jpg",
+                "image2": "SERIES/INVIZIMALS_HIDDEN_CHALLENGES/TYPES/ICE/ART/41/character.png",
+                "arImage": "SERIES/INVIZIMALS_HIDDEN_CHALLENGES/TYPES/FIRE/ART/323/ar.png",
+                "description": "Don't be fooled by the innocent, sweet looks of the Steeltail. This bird may look friendly, but her tail is a powerful weapon. So whenever you come across a Steeltail, and see her smile at you candidly... enjoy the moment! A second later, she will turn around and strike.",
+                "stat": "750 / 650",
+                "habitats": ["ICE", "LEGENDARY"]
+            },
+            {
+                "id": 365,
+                "name": "Snowcaster",
+                "type": "Ice / MAX / 365",
+                "image": "SERIES/INVIZIMALS_HIDDEN_CHALLENGES/TYPES/ICE/ART/42/front.jpg",
+                "image2": "SERIES/INVIZIMALS_HIDDEN_CHALLENGES/TYPES/ICE/ART/42/character.png",
+                "arImage": "SERIES/INVIZIMALS_HIDDEN_CHALLENGES/TYPES/FIRE/ART/323/ar.png",
+                "description": "Don't be fooled by the innocent, sweet looks of the Steeltail. This bird may look friendly, but her tail is a powerful weapon. So whenever you come across a Steeltail, and see her smile at you candidly... enjoy the moment! A second later, she will turn around and strike.",
+                "stat": "650 / 700",
+                "habitats": ["ICE"]
+            },
+            {
+                "id": 366,
+                "name": "Unicorn",
+                "type": "Ice / MAX / 366",
+                "image": "SERIES/INVIZIMALS_HIDDEN_CHALLENGES/TYPES/ICE/ART/43/front.jpg",
+                "image2": "SERIES/INVIZIMALS_HIDDEN_CHALLENGES/TYPES/ICE/ART/43/character.png",
+                "arImage": "SERIES/INVIZIMALS_HIDDEN_CHALLENGES/TYPES/FIRE/ART/323/ar.png",
+                "description": "Don't be fooled by the innocent, sweet looks of the Steeltail. This bird may look friendly, but her tail is a powerful weapon. So whenever you come across a Steeltail, and see her smile at you candidly... enjoy the moment! A second later, she will turn around and strike.",
+                "stat": "650 / 650",
+                "habitats": ["ICE"]
+            },
+            {
+                "id": 367,
+                "name": "Yeti",
+                "type": "Ice / MAX / 367",
+                "image": "SERIES/INVIZIMALS_HIDDEN_CHALLENGES/TYPES/ICE/ART/44/front.jpg",
+                "image2": "SERIES/INVIZIMALS_HIDDEN_CHALLENGES/TYPES/ICE/ART/44/character.png",
+                "arImage": "SERIES/INVIZIMALS_HIDDEN_CHALLENGES/TYPES/FIRE/ART/323/ar.png",
+                "description": "Don't be fooled by the innocent, sweet looks of the Steeltail. This bird may look friendly, but her tail is a powerful weapon. So whenever you come across a Steeltail, and see her smile at you candidly... enjoy the moment! A second later, she will turn around and strike.",
+                "stat": "650 / 750",
+                "habitats": ["ICE", "LEGENDARY"]
+            },
+            {
+                "id": 368,
+                "name": "Dark Icelion",
+                "type": "Ice / MAX / 368",
+                "image": "SERIES/INVIZIMALS_HIDDEN_CHALLENGES/TYPES/ICE/ART/45/front.jpg",
+                "image2": "SERIES/INVIZIMALS_HIDDEN_CHALLENGES/TYPES/ICE/ART/45/character.png",
+                "arImage": "SERIES/INVIZIMALS_HIDDEN_CHALLENGES/TYPES/FIRE/ART/323/ar.png",
+                "description": "Don't be fooled by the innocent, sweet looks of the Steeltail. This bird may look friendly, but her tail is a powerful weapon. So whenever you come across a Steeltail, and see her smile at you candidly... enjoy the moment! A second later, she will turn around and strike.",
+                "stat": "850 / 700",
+                "habitats": ["ICE", "DARK"]
+            },
+            {
+                "id": 369,
+                "name": "Ice Dragon",
+                "type": "Ice / MAX / 369",
+                "image": "SERIES/INVIZIMALS_HIDDEN_CHALLENGES/TYPES/ICE/ART/46/front.jpg",
+                "image2": "SERIES/INVIZIMALS_HIDDEN_CHALLENGES/TYPES/ICE/ART/46/character.png",
+                "arImage": "SERIES/INVIZIMALS_HIDDEN_CHALLENGES/TYPES/FIRE/ART/323/ar.png",
+                "description": "Don't be fooled by the innocent, sweet looks of the Steeltail. This bird may look friendly, but her tail is a powerful weapon. So whenever you come across a Steeltail, and see her smile at you candidly... enjoy the moment! A second later, she will turn around and strike.",
+                "stat": "750 / 900",
+                "habitats": ["ICE", "DRAGON"]
+            },
+            {
+                "id": 370,
+                "name": "Spectral Dragon",
+                "type": "Ice / MAX / 370",
+                "image": "SERIES/INVIZIMALS_HIDDEN_CHALLENGES/TYPES/ICE/ART/47/front.jpg",
+                "image2": "SERIES/INVIZIMALS_HIDDEN_CHALLENGES/TYPES/ICE/ART/47/character.png",
+                "arImage": "SERIES/INVIZIMALS_HIDDEN_CHALLENGES/TYPES/FIRE/ART/323/ar.png",
+                "description": "Don't be fooled by the innocent, sweet looks of the Steeltail. This bird may look friendly, but her tail is a powerful weapon. So whenever you come across a Steeltail, and see her smile at you candidly... enjoy the moment! A second later, she will turn around and strike.",
+                "stat": "800 / 850",
+                "habitats": ["ICE", "DRAGON"]
             }
         ]
     }

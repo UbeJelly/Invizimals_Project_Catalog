@@ -32,11 +32,11 @@ Main features:
 ---
 
 ## 💾 Data Structure
-```JSON
+```JSONC
 {
     // JSON data of entire catalog
     "catalog": {
-        "total_cards": 77,
+        "total_cards": 91,
         "total_types": [
             {
                 "type": "fire",
@@ -94,6 +94,12 @@ root
 - Build a search engine to filter by the name of each **Invizimals**.
 - Add other Invizimals from other series.
 
+## 👥 Credits
+- Cards by [u/HeavyEquivalent479](https://www.reddit.com/user/HeavyEquivalent479/), see [Drive](https://drive.google.com/drive/folders/1GnVYD49PDrJ74yKlt0Vd2FLydV79ETov)
+- Card data reference from [u/Organic_Woodpecker64](https://www.reddit.com/user/Organic_Woodpecker64/), see [Spreadsheet](https://onedrive.live.com/:x:/g/personal/DD980C6F23226519/EXIzvOUrS0RHhmyvIVfMb6wBiBmZzQUIT1Fjm6vszJdMqg?resid=DD980C6F23226519!se5bc33724b2b4744866caf2157cc6fac&ithint=file%2Cxlsx&e=noYxr9&migratedtospo=true&redeem=aHR0cHM6Ly8xZHJ2Lm1zL3gvYy9kZDk4MGM2ZjIzMjI2NTE5L0VYSXp2T1VyUzBSSGhteXZJVmZNYjZ3QmlCbVp6UVVJVDFGam02dnN6SmRNcWc_ZT1ub1l4cjk)
+- Project started by [r4nc0x](https://github.com/r4nc0x), see [Repository](https://github.com/r4nc0x/proyecto_Invizimals)
+- The rest of Ice Invizimal cutouts and some Fire types were edited by me (Jelly).
+
 ## 📌 License
 
 This project is **free for personal and community use and modification,** provided that the source and community are cited.
@@ -101,3 +107,9 @@ This project is **free for personal and community use and modification,** provid
 Do not sell without permission from the authors, that is, our friends at **PANINI** and the creators of the **INVIZIMALS** saga.
 
 Orbitron font, Copyright 2018 The Orbitron Project Authors: [Open Font License](RESOURCES/Fonts/Orbitron/OFL.txt)
+
+---
+
+This project is not affiliated with, endorsed by, and/or maintained by **Sony Computer Entertainment America LLC**, **Novarama**, nor **PANINI**.
+
+All rights reserved of the original, unedited files and properties of Invizimals to its legal creators and owners.
