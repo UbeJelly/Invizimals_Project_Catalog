@@ -109,7 +109,8 @@ Do not sell without permission from the authors, that is, our friends at **PANIN
 Orbitron font, Copyright 2018 The Orbitron Project Authors: [Open Font License](RESOURCES/Fonts/Orbitron/OFL.txt)
 
 ---
+This is free to use and modify however you want for personal projects, but don't use it for any monetary gain.
 
-This project is not affiliated with, endorsed by, and/or maintained by **Sony Computer Entertainment America LLC**, **Novarama**, nor **PANINI**.
+This project and its contents are not affiliated with, endorsed by, and/or maintained by **Sony Computer Entertainment America LLC**, **Novarama**, nor **PANINI**.
 
 All rights reserved of the original, unedited files and properties of Invizimals to its legal creators and owners.

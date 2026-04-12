@@ -488,6 +488,92 @@ h1 {
         pointer-events: none;
     }
 }
+
+/* The switch - the box around the slider */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 90px;
+    height: 60px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+/* mockup slider START */
+/* The slider */
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    box-shadow:  0 10px 25px rgba(0, 0, 0, 0.3);
+    -webkit-transition: .4s;
+    transition: all 0.3s ease;
+}
+
+.slider:before {
+    position: absolute;
+    content: "EN";
+    color: black;
+
+    /* position letter inside */ 
+    text-align: center;
+    line-height: 46px;
+
+    height: 48px;
+    width: 48px;
+    left: 6px;
+    bottom: 6px;
+    background-color: white;
+    box-shadow:  0 10px 25px rgba(0, 0, 0, 0.3);
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.slider:hover {
+    background-color: rgb(241, 255, 113);
+}
+
+input:checked + .slider {
+    background-color: rgba(209, 255, 81, 0.8);
+}
+
+input:focus + .slider {
+    box-shadow: 0 0 1px rgba(209, 255, 81, 0.8);
+}
+
+input:checked + .slider:before {
+    content: "ES";
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+
+/*  custom border around the card container
+    border-image-slice allows its animation
+*/
+.invizimal-card:hover {
+    border-image-source: url(RESOURCES/frame_test.png);
+    border-image-width: 60px;
+    border-image-slice: 30%;
+}
 </style>
 </head>
 <body>
@@ -519,6 +605,11 @@ h1 {
                         <input type="text" id="searchInput" placeholder="Search by name...">
                     </div>
                 </div>
+
+                <label class="switch">
+                    <input type="checkbox">
+                    <span class="slider round"></span>
+                </label>
             </div>
         </header>
 
@@ -659,7 +750,7 @@ function Card3D(card, ev) {
     // Spotlight card effects inspired by Scrydex    
     let spotlight = card.querySelector('img.spotlight');
     spotlight.style.display = `block`;
-    spotlight.style.mask = `radial-gradient(circle at ${mouseX}px ${mouseY}px, rgba(255, 255, 255, 0.35), transparent 75%)`;
+    spotlight.style.mask = `radial-gradient(circle at ${mouseX}px ${mouseY}px, rgba(255, 255, 255, 0.4), transparent 50%)`;
     spotlight.style.transform = `rotateX(${rotateX}deg) rotateY(${rotateY}deg) scaleX(0.875) scaleY(0.85)`;
 
     img.style.transform = `rotateX(${rotateX}deg) rotateY(${rotateY}deg)`;
