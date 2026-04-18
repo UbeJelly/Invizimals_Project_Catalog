@@ -585,6 +585,13 @@ body {
         max-width: 300px;
     }
 }
+
+/* Tone down the animation to avoid vestibular motion triggers. */
+@media (prefers-reduced-motion: reduce) {
+  .slider, .search-btn, .filter-btn, .search-panel, .filter-panel, .invizimal-card, .invizimal-card img {
+    transition: none;
+  }
+}
 </style>
 </head>
 <body>
@@ -758,13 +765,20 @@ function Card3D(card, ev) {
     let rotateX = map(mouseY, 0, 250, 25, -25);
     //let brightness = map(mouseY, 0, 250, 1.5, 0.5);
 
-    // Spotlight card effects inspired by Scrydex    
     let spotlight = card.querySelector('img.spotlight');
-    spotlight.style.display = `block`;
-    spotlight.style.mask = `radial-gradient(circle at ${mouseX}px ${mouseY}px, rgba(255, 255, 255, 0.4), transparent 50%)`;
-    spotlight.style.transform = `rotateX(${rotateX}deg) rotateY(${rotateY}deg) scaleX(0.875) scaleY(0.85)`;
+    
+    const isReduced = window.matchMedia(`(prefers-reduced-motion: reduce)`) === true || window.matchMedia(`(prefers-reduced-motion: reduce)`).matches === true;
 
-    img.style.transform = `rotateX(${rotateX}deg) rotateY(${rotateY}deg)`;
+    if (!isReduced) {
+        // Spotlight card effects inspired by Scrydex    
+        spotlight.style.display = `block`;
+        spotlight.style.mask = `radial-gradient(circle at ${mouseX}px ${mouseY}px, rgba(255, 255, 255, 0.4), transparent 50%)`;
+        spotlight.style.transform = `rotateX(${rotateX}deg) rotateY(${rotateY}deg) scaleX(0.875) scaleY(0.85)`;
+        img.style.transform = `rotateX(${rotateX}deg) rotateY(${rotateY}deg)`;
+    } else {
+        spotlight.style.display = `none`;
+    }
+    
     //img.style.filter = `brightness(${brightness})`;
 }
 
