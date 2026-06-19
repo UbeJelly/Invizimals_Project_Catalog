@@ -335,7 +335,6 @@ input:checked + .language-btn-slider:before {
 .invizimal-card img {
     width: 100%;
     border-radius: 8px;
-    margin-bottom: 10px;
     transition: all 250ms ease-out;
 }
 .invizimal-card:hover img {
@@ -482,6 +481,136 @@ input:checked + .language-btn-slider:before {
 
 .invizimal-card:hover, .search-btn:hover, .filter-btn:hover, .language-btn-slider:hover, .filter-option:hover, .close-btn:hover {
     cursor: url('RESOURCES/pointer.png') 10 2, pointer;
+}
+
+/* Card Holo Effects */
+.card_gleam {
+    position: relative;
+    overflow: visible;
+    transition: transform 0.1s ease-out;
+    will-change: transform, background-position;
+}
+
+.card_gleam::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: 9;
+    pointer-events: none;
+    border-radius: 8px;
+    background: linear-gradient(110deg, transparent 20%, rgba(255, 255, 255, 0.25) 30%, rgba(255, 255, 255, 0.4) 40%, rgba(255, 255, 255, 0.25) 50%, transparent 60%);
+    background-size: 200% 100%;
+    animation: gleam 6s linear infinite;
+    mix-blend-mode: overlay;
+    opacity: 0.6;
+}
+
+.card_gleam::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: 10;
+    pointer-events: none;
+    background-repeat: no-repeat;
+    opacity: 0.3;
+    transition: opacity 0.3s ease;
+}
+
+/* line 40, app/assets/stylesheets/card_effects.scss */
+.card-holo:hover::after {
+    opacity: 0.9;
+}
+
+@keyframes gleam {
+    0% { background-position: 200% 0; }
+    100% { background-position: -200% 0; }
+}
+
+@keyframes twinkle {
+    0%, 100% {
+        opacity: 0;
+        transform: scale(0);
+    }
+    50% {
+        opacity: 1;
+        transform: scale(1.2);
+    }
+}
+
+.card-sparkle {
+    position: absolute;
+    width: 4px;
+    height: 4px;
+    background: white;
+    border-radius: 50%;
+    box-shadow: 0 0 10px 2px rgba(255, 255, 255, 0.8);
+    pointer-events: none;
+    z-index: 11;
+    opacity: 0;
+    animation: twinkle 2s infinite ease-in-out;
+}
+
+.card-sparkle-1 {
+    top: 15%;
+    left: 25%;
+    animation-delay: 0s;
+}
+
+.card-sparkle-2 {
+    top: 65%;
+    left: 75%;
+    animation-delay: 0.5s;
+}
+
+.card-sparkle-3 {
+    top: 35%;
+    left: 15%;
+    animation-delay: 1s;
+}
+
+.card-sparkle-4 {
+    top: 85%;
+    left: 45%;
+    animation-delay: 1.5s;
+}
+
+.card-sparkle-5 {
+    top: 25%;
+    left: 80%;
+    animation-delay: 0.2s;
+}
+
+.card-sparkle-6 {
+    top: 55%;
+    left: 35%;
+    animation-delay: 0.7s;
+}
+
+.card-sparkle-7 {
+    top: 10%;
+    left: 60%;
+    animation-delay: 1.2s;
+}
+
+.card-sparkle-8 {
+    top: 75%;
+    left: 10%;
+    animation-delay: 1.7s;
+}
+
+/* Holofoil Effect */
+.card-holo-holofoil::after {
+    background-image: radial-gradient(circle at var(--x, 50%) var(--y, 50%), rgba(255, 255, 255, 0.8) 0%, rgba(255, 255, 255, 0.4) 30%, transparent 70%);
+    mix-blend-mode: overlay;
+}
+
+/* Reverse Holofoil Effect */
+/* line 88, app/assets/stylesheets/card_effects.scss */
+.card-holo-reverseHolofoil::after {
+    background-image: linear-gradient(135deg, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0.6) 25%, rgba(255, 255, 255, 0.2) 50%, rgba(255, 255, 255, 0.6) 75%, rgba(255, 255, 255, 0.2) 100%);
+    background-size: 200% 200%;
+    background-position: var(--x, 50%) var(--y, 50%);
+    mix-blend-mode: color-dodge;
 }
 
 /* ====== MEDIA QUERIES ====== */
@@ -706,12 +835,9 @@ function renderInvizimals(data) {
         card.className = 'invizimal-card';
         card.setAttribute('data-id', inv.id);
         card.innerHTML = `
-            <img loading="lazy" src="${inv.image}" alt="${inv.name}">
-
-            <img loading="lazy" src="${inv.image}" alt="${inv.name}" class="spotlight"
-                style="image-rendering: optimizeSpeed; filter: brightness(0) invert(1); position: fixed; display: none; top: 0; left: 0;"
-            >
-            
+            <div class="card_gleam">
+                <img loading="lazy" src="${inv.image}" alt="${inv.name}">
+            </div>
             <h3>${inv.name}</h3>
             <p>Type: ${inv.type}</p>
         `;
@@ -737,48 +863,34 @@ function renderInvizimals(data) {
         });
 
         card.addEventListener('mouseleave', (ev) => {
-            let img = card.querySelector('img');
-            img.style.transform = 'rotateX(0deg) rotateY(0deg)';
-
-            let spotlight = card.querySelector('img.spotlight');
-            spotlight.style.transform = 'rotateX(0deg) rotateY(0deg)';
-            spotlight.style.display = `none`;
-            //img.style.filter = 'brightness(1)';
+            const img = card.querySelector('img');
+            img.style.setProperty("--x", "50%");
+            img.style.setProperty("--y", "50%");
+            img.style.transform = "perspective(1000px) rotateX(0deg) rotateY(0deg) scale3d(1, 1, 1)";
         });
     });
 }
 
-// Steam-inspired card hover effects by @nelsonr
-function map(val, minA, maxA, minB, maxB) {
-    return minB + ((val - minA) * (maxB - minB)) / (maxA - minA);
-}
-
 function Card3D(card, ev) {
-    let img = card.querySelector('img');
-    let imgRect = card.getBoundingClientRect();
-    let width = imgRect.width;
-    let height = imgRect.height;
-    let mouseX = ev.offsetX;
-    let mouseY = ev.offsetY;
-    let rotateY = map(mouseX, 0, 180, -25, 25);
-    let rotateX = map(mouseY, 0, 250, 25, -25);
-    //let brightness = map(mouseY, 0, 250, 1.5, 0.5);
+    const img = card.querySelector('img');
+    const rect = img.getBoundingClientRect();
+    const x = ev.clientX - rect.left;
+    const y = ev.clientY - rect.top;
+    const px = (x / rect.width) * 100;
+    const py = (y / rect.height) * 100;
 
-    let spotlight = card.querySelector('img.spotlight');
-    
+    img.style.setProperty("--x", `${px}%`);
+    img.style.setProperty("--y", `${py}%`);
+
+    // Tilt effect
+    const rx = (py - 50) / 2;
+    const ry = (50 - px) / 2;
+
     const isReduced = window.matchMedia(`(prefers-reduced-motion: reduce)`) === true || window.matchMedia(`(prefers-reduced-motion: reduce)`).matches === true;
 
     if (!isReduced) {
-        // Spotlight card effects inspired by Scrydex    
-        spotlight.style.display = `block`;
-        spotlight.style.mask = `radial-gradient(circle at ${mouseX}px ${mouseY}px, rgba(255, 255, 255, 0.4), transparent 50%)`;
-        spotlight.style.transform = `rotateX(${rotateX}deg) rotateY(${rotateY}deg) scaleX(0.875) scaleY(0.85)`;
-        img.style.transform = `rotateX(${rotateX}deg) rotateY(${rotateY}deg)`;
-    } else {
-        spotlight.style.display = `none`;
+        img.style.transform = `perspective(1000px) rotateX(${rx}deg) rotateY(${ry}deg) scale3d(1.05, 1.05, 1.05)`;
     }
-    
-    //img.style.filter = `brightness(${brightness})`;
 }
 
 // Configure filters
