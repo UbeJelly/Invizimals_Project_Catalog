@@ -516,6 +516,10 @@ input:checked + .language_button_slider:before {
     transition: opacity 0.3s ease;
 }
 
+.card_gleam:hover::after {
+  opacity: 0.9;
+}
+
 @keyframes gleam {
     0% { background-position: 200% 0; }
     100% { background-position: -200% 0; }
@@ -592,6 +596,11 @@ input:checked + .language_button_slider:before {
     top: 75%;
     left: 10%;
     animation-delay: 1.7s;
+}
+
+.card_gleam_holo::after {
+  background-image: radial-gradient(circle at var(--x, 50%) var(--y, 50%), rgba(255, 255, 255, 0.8) 0%, rgba(255, 255, 255, 0.4) 30%, transparent 75%);
+  mix-blend-mode: overlay;
 }
 
 /* ====== MEDIA QUERIES ====== */
@@ -816,7 +825,7 @@ function renderInvizimals(data) {
         card.className = 'invizimal_card';
         card.setAttribute('data-id', inv.id);
         card.innerHTML = `
-            <div class="card_gleam">
+            <div class="card_gleam card_gleam_holo">
                 <div class="card_glints card_glints-1"></div>
                 <div class="card_glints card_glints-2"></div>
                 <div class="card_glints card_glints-3"></div>
@@ -856,6 +865,10 @@ function renderInvizimals(data) {
             img.style.setProperty("--x", "50%");
             img.style.setProperty("--y", "50%");
             img.style.transform = "perspective(1000px) rotateX(0deg) rotateY(0deg) scale3d(1, 1, 1)";
+
+            const gleam_holo = card.querySelector('.card_gleam_holo');
+            gleam_holo.style.setProperty("--x", "50%");
+            gleam_holo.style.setProperty("--y", "50%");
         });
     });
 }
@@ -871,6 +884,10 @@ function Card3D(card, ev) {
 
     img.style.setProperty("--x", `${px}%`);
     img.style.setProperty("--y", `${py}%`);
+
+    const gleam_holo = card.querySelector('.card_gleam_holo');
+    gleam_holo.style.setProperty("--x", `${px}%`);
+    gleam_holo.style.setProperty("--y", `${py}%`);
 
     // Tilt effect
     const rx = (py - 50) / 2;
