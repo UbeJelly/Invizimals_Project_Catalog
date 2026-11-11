@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="RESOURCES/Invizimals.png" width="400" height="auto" alt="Invizimals title" class="title">
+    <img src="src/Invizimals_gh.png" width="400" height="auto" alt="Invizimals title" class="title">
     <br><img alt="Dynamic JSON Badge" src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FUbeJelly%2FInvizimals_Project_Catalog%2Frefs%2Fheads%2Fmain%2Finvizimals.json&query=%24.catalog.total_cards&style=flat&label=Total%20cards%20recorded&labelColor=%23bc45e3&color=%23d1ff51&cacheSeconds=10800">
 </p>
 
@@ -8,24 +8,17 @@
 **Welcome to Invizimals Universe!**  
 This is a project by the community and for the community, which revives the Invizimals saga on the web with a modern, interactive style.
 
-<p align="center">
-    <video src="https://github.com/user-attachments/assets/29275648-aa6e-410b-a92b-92d3be141f0c" width="640" height="360" controls></video>
-</p>
+![preview.gif](src/preview.gif)
 
 ---
 
 ## 🎮 Description
 
-This project is an **interactive encyclopedia of cards** from the generations:
-
-1. **Hidden Challenges**  
-2. **New Alliance** (coming soon)
-3. **PSP cards** (coming soon)
+This project is an **interactive encyclopedia of cards** from the **Hidden Challenges** generations
 
 Main features:
 
-- For now, you'll find the **Hidden Challenges** cards of the Fire element.
-- The cards will become changed over time.
+- **Hidden Challenges** cards of the Fire and Ice habitats, as well as Dragon and Legendary types.
 - Steam trading cards inspired hover effects!
 - Invizimals: Shadow Zone inspired theme!
 
@@ -53,9 +46,9 @@ Main features:
                 "id": 1,
                 "name": "Beatwidow",
                 "type": "Fire / PUP / 001",
-                "image": "SERIES/INVIZIMALS_HIDDEN_CHALLENGES/TYPES/FIRE/ART/01/frontal.png",
-                "image2": "SERIES/INVIZIMALS_HIDDEN_CHALLENGES/TYPES/FIRE/ART/01/personaje.png",
-                "arImage": "SERIES/INVIZIMALS_HIDDEN_CHALLENGES/TYPES/FIRE/ART/01/ar.png",
+                "image": "Assets/Hidden_Challenges/Types/FIRE/Art/01/frontal.png",
+                "image2": "Assets/Hidden_Challenges/Types/FIRE/Art/01/personaje.png",
+                "arImage": "Assets/Hidden_Challenges/Types/FIRE/Art/01/ar.png",
                 "description": "A dancing spider? This Invizimal world is full of surprises! I present Beatwidow, the queen of the disco, who can break dance or as a robot... Whatever you want!! This creature is such a good dancer that she has a disco ball in her stomach. By the way, watch that ball... maybe you can use it in more... dangerous ways!",
                 "stat": "285 / 150",
                 "habitats": "FIRE"
@@ -70,21 +63,21 @@ Main features:
 
 ```bash
 root
-├── index.html ← Invizimals visuals
-├── invizimals.json ← The Invizimals data that index.html reads.
+├── index.html ← The card catalog web page.
+├── invizimals.json ← The data that index.html reads.
 │
-└── SERIES
-  ├── INVIZIMALS
-  ├── INVIZIMALS: SHADOW ZONE
-  ├── INVIZIMALS: HIDDEN CHALLENGES
-  │ └── TYPES
-  │   ├── FIRE/
-  │   │   ├── ART/ ← Individual images for Invizimals and AR cards.
-  │   │   └── PDF/ ← Compiled cards in PDF format.
-  │   ├── ICE/
-  │   ├── JUNGLE/
-  │   ├── ...
-  └── ...
+├── Assets ← All the art and AR card assets.
+│   ├── Hidden_Challenges
+│   │   └── Types
+│   │       ├── FIRE/
+│   │       │   ├── Art/ ← The images of cards.
+│   │       │   └── PDF/ ← Compiled art and AR cards.
+│   │       ├── ICE/
+│   └── ...
+│
+└── src ← Other graphical assets for the web page.
+    ├── Fonts
+    └── ...
 
 ```
 ## 🌟 Next Steps
@@ -109,7 +102,8 @@ Do not sell without permission from the authors, that is, our friends at **PANIN
 Orbitron font, Copyright 2018 The Orbitron Project Authors: [Open Font License](RESOURCES/Fonts/Orbitron/OFL.txt)
 
 ---
+This is free to use and modify however you want for personal projects, but don't use it for any monetary gain.
 
-This project is not affiliated with, endorsed by, and/or maintained by **Sony Computer Entertainment America LLC**, **Novarama**, nor **PANINI**.
+This project and its contents are not affiliated with, endorsed by, and/or maintained by **Sony Computer Entertainment America LLC**, **Novarama**, nor **PANINI**.
 
 All rights reserved of the original, unedited files and properties of Invizimals to its legal creators and owners.
