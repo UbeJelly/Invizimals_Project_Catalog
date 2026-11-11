@@ -11,19 +11,19 @@
 
 @font-face {
     font-family: 'Orbitron';
-    src: url('RESOURCES/Fonts/Orbitron/Orbitron-Regular.ttf') format('truetype');
+    src: url('Resources/Fonts/Orbitron/Orbitron-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
     font-family: 'Orbitron Bold';
-    src: url('RESOURCES/Fonts/Orbitron/Orbitron-Bold.ttf') format('truetype');
+    src: url('Resources/Fonts/Orbitron/Orbitron-Bold.ttf') format('truetype');
     font-weight: bold;
     font-style: normal;
 }
 @font-face {
     font-family: 'Orbitron Black';
-    src: url('RESOURCES/Fonts/Orbitron/Orbitron-Black.ttf') format('truetype');
+    src: url('Resources/Fonts/Orbitron/Orbitron-Black.ttf') format('truetype');
     font-weight: bolder;
     font-style: normal;
 }
@@ -40,7 +40,7 @@ body {
     color: #fff;
     min-height: 100vh;
     overflow-x: hidden;
-    cursor: url('RESOURCES/cursor_default.png') 10 10, auto;
+    cursor: url('Resources/cursor_default.png') 10 10, auto;
 }
 .background {
     padding: 20px;
@@ -49,7 +49,7 @@ body {
     background-position: center;
     background-attachment: fixed;
 }
-.background::after {
+.background::before {
     content: "";
     position: fixed;
     top: 0;
@@ -69,31 +69,24 @@ body {
     min-height: 100vh;
 }
 header {
-    text-align: center;
-    margin-bottom: 20px;
-    padding: 20px;
+    margin: 0;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: row;
     position: relative;
-}
-.title {
-    position: relative;
-    margin-bottom: 20px;
-    image-rendering: optimizeSpeed;
-    max-width: 30%;
-    z-index: 10;
-}
-h1 {
-    font-size: 3rem;
-    margin-bottom: 10px;
-    color: var(--inv-lime);
-    text-shadow: 0 0 10px rgba(76, 201, 240, 0.7);
+    top: 0;
+    left: 0;
+    justify-content: space-between;
+    z-index: 12;
 }
 .subtitle {
-    position: relative;
     font-size: 1.5rem;
     color: var(--inv-lime);
-    -webkit-text-stroke: 1px rgba(0, 0, 0, 0.25);
-    margin-bottom: 30px;
-    z-index: 10;
+}
+
+.subtitle, .invizimal_card h3, .invizimal_card p {
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+    -webkit-text-stroke: 1px rgba(0, 0, 0, 0.5);
 }
 
 /* ====== NEW STYLES FOR SEARCH AND FILTERS ON PC ====== */
@@ -101,9 +94,8 @@ h1 {
     display: flex;
     justify-content: center;
     gap: 20px;
-    margin-bottom: 40px;
     position: relative;
-    z-index: 100;
+    z-index: 12;
 }
 
 .search_button, .filter_button {
@@ -324,11 +316,11 @@ input:checked + .language_button_slider:before {
     transition: all 250ms ease-out;
 }
 .invizimal_card:hover {
-    z-index: 10;
+    z-index: 24;
     transform: scale(1.3);
 
     /* custom border around the card container; border-image-slice allows its animation */
-    border-image-source: url(RESOURCES/frame_test.png);
+    border-image-source: url(Resources/frame_test.png);
     border-image-width: 60px;
     border-image-slice: 30%;
 }
@@ -348,8 +340,8 @@ input:checked + .language_button_slider:before {
     -webkit-text-stroke: 1px rgba(0, 0, 0, 0.25);
 }
 .invizimal_card p {
-    font-size: 0.9rem;
-    color: #d0d0d0;
+    font-size: 1rem;
+    color: #fafafa;
 }
 .card_modal {
     position: fixed;
@@ -480,7 +472,7 @@ input:checked + .language_button_slider:before {
 }
 
 .invizimal_card:hover, .search_button:hover, .filter_button:hover, .language_button_slider:hover, .filter_option:hover, .close_button:hover {
-    cursor: url('RESOURCES/pointer.png') 10 2, pointer;
+    cursor: url('Resources/pointer.png') 10 2, pointer;
 }
 
 /* Card shining effects */
@@ -703,10 +695,69 @@ input:checked + .language_button_slider:before {
 
 /* Tone down or disable animation if needed by user. */
 @media (prefers-reduced-motion: reduce) {
-  .language_button_slider, .search_button, .filter_button, .search_panel, .filter_panel, .invizimal_card, .invizimal_card img, .card_gleam, .card_glints {
+  .language_button_slider, .search_button, .filter_button,
+  .search_panel, .filter_panel,
+  .invizimal_card, .invizimal_card img,
+  .card_gleam, .card_glints,
+  .rotate {
     transition: none;
     animation: none;
   }
+}
+
+.title_banner {
+    margin: 0;
+    padding: 0;
+    height: 256px;
+}
+
+.title {
+    margin: 0;
+    padding: 0;
+    width: 512px;
+    height: 256px;
+    background-image: url('Resources/Invizimals.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.octagram {
+    margin: 0;
+    padding: 0;
+    width: 256px;
+    height: 256px;
+    background-image: url('Resources/Invizimals_title_octagram_spinner.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 0;
+    left: 120px;
+}
+
+.title_info {
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    justify-content: center;
+    align-items: center;
+}
+
+.rotate {
+    animation: rotation 30s infinite linear;
+}
+
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(359deg);
+    }
 }
 </style>
 </head>
@@ -714,39 +765,49 @@ input:checked + .language_button_slider:before {
 <div class="background">
     <div class="container">
         <header>
-            <img src="RESOURCES/Invizimals.png" alt="Invizimals title" class="title">
-            <p class="subtitle">Welcome to the CARD CATALOG!
-                <br>Total cards recorded: <span class="total_cards"></span>
-            </p>
-
-            <!-- Search and filter controls with local images -->
-            <div class="search_filter_language_container">
-                <div class="filter_button_container">
-                    <div class="filter_button" id="filterBtn">
-                        <img src="RESOURCES/filter.png" alt="Filter" class="icon_button">
-                    </div>
-                    <div class="filter_panel" id="filterPanel">
-                        <div class="filter_title">Filter by type/habitat</div>
-                        <!-- The filter options will be generated dynamically. -->
+                <!-- Title banner animations -->
+                <div class="title_banner">
+                    <div class="octagram rotate"></div>
+                    <div class="title">
                     </div>
                 </div>
 
-                <div class="search_button_container">
-                    <div class="search_button" id="searchBtn">
-                        <img src="RESOURCES/search.png" alt="Search" class="icon_button">
-                    </div>
-                    <div class="search_panel" id="searchPanel">
-                        <input type="text" id="searchInput" placeholder="Search by name...">
+                <div class="title_info">
+                    <p class="subtitle">Welcome to the<br>CARD CATALOG!
+                        <br><br>Total cards: <span class="total_cards"></span>
+                    </p>
+
+                    <!-- Search and filter controls with local images -->
+                    <div class="search_filter_language_container">
+                        <div class="filter_button_container">
+                            <div class="filter_button" id="filterBtn">
+                                <img src="Resources/eye-48.png" alt="Filter" class="icon_button">
+                            </div>
+                            <div class="filter_panel" id="filterPanel">
+                                <div class="filter_title">Filter by type/habitat</div>
+                                <!-- The filter options will be generated dynamically. -->
+                            </div>
+                        </div>
+
+                        <div class="search_button_container">
+                            <div class="search_button" id="searchBtn">
+                                <img src="Resources/search-48.png" alt="Search" class="icon_button">
+                            </div>
+                            <div class="search_panel" id="searchPanel">
+                                <input type="text" id="searchInput" placeholder="Search by name...">
+                            </div>
+                        </div>
+
+                        <div class="language_button_container">
+                            <label class="language_button">
+                                <input type="checkbox">
+                                <span class="language_button_slider round"></span>
+                            </label>
+                        </div>
                     </div>
                 </div>
 
-                <div class="language_button_container">
-                    <label class="language_button">
-                        <input type="checkbox">
-                        <span class="language_button_slider round"></span>
-                    </label>
-                </div>
-            </div>
+            
         </header>
 
         <div class="invizimals_grid">
@@ -834,10 +895,10 @@ function renderInvizimals(data) {
                 <div class="card_glints card_glints-6"></div>
                 <div class="card_glints card_glints-7"></div>
                 <div class="card_glints card_glints-8"></div>
-                <img loading="lazy" src="${inv.image}" alt="${inv.name}">
+                <img src="${inv.image}" alt="${inv.name}">
             </div>
             <h3>${inv.name}</h3>
-            <p>Type: ${inv.type}</p>
+            <p>${inv.type}</p>
         `;
         grid.appendChild(card);
 
