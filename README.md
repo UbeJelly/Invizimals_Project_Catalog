@@ -1,6 +1,6 @@
 <p align="center">
     <img src="src/Invizimals_gh.png" width="400" height="auto" alt="Invizimals title" class="title">
-    <br><img alt="Dynamic JSON Badge" src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FUbeJelly%2FInvizimals_Project_Catalog%2Frefs%2Fheads%2Fmain%2Finvizimals.json&query=%24.catalog.total_cards&style=flat&label=Total%20cards%20recorded&labelColor=%23bc45e3&color=%23d1ff51&cacheSeconds=10800">
+    <br><img alt="Dynamic JSON Badge" src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FUbeJelly%2FInvizimals_Project_Catalog%2Frefs%2Fheads%2Fmain%2Finvizimals.json&query=%24.catalog.total_cards&style=flat&label=Total%20cards%20recorded&labelColor=bc45e3&color=d1ff51&cacheSeconds=86400">
 </p>
 
 # 🌌 Invizimals: Project Catalog
