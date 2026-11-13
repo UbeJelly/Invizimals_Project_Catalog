@@ -35,12 +35,14 @@
     box-sizing: border-box;
     font-family: 'Orbitron Black', Tahoma, Verdana, sans-serif;
 }
-
+html {
+    scroll-behavior: smooth;
+}
 body {
     color: #fff;
     min-height: 100vh;
     overflow-x: hidden;
-    cursor: url('src/cursor_default.png') 10 10, auto;
+    cursor: url('src/cursor_default.png') 0 0, auto;
 }
 .background {
     padding: 20px;
@@ -302,7 +304,7 @@ input:checked + .language_button_slider:before {
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     gap: 20px;
     margin-bottom: 40px;
-    flex: 1;
+    flex-flow: column wrap;
 }
 .invizimal_card {
     background: transparent;
@@ -632,6 +634,10 @@ input:checked + .language_button_slider:before {
     }
     
     /* ====== MOBILE STYLES FOR SEARCH AND FILTERS ====== */
+    .title_info p {
+        text-align: center;
+    }
+
     .search_filter_language_container {
         position: fixed;
         bottom: 20px;
@@ -868,7 +874,6 @@ let currentFilter = 'all';
 fetch('invizimals.json')
     .then(res => res.json())
     .then(data => {
-        // TODO: Make set a default series to load from at the start
         invizimalsData = data.series.Hidden_Challenges;
 
         // Display number of cards in JSON
@@ -967,7 +972,7 @@ function setupFilters(data) {
     
     // Obtain unique types from all type arrays
     const allTypes = data.flatMap(inv => inv.types || [inv.type]);
-    const types = [...new Set(allTypes)];
+    const types = [...new Set(allTypes)].sort();
     
     // Create "All" option
     const allOption = document.createElement('div');
@@ -984,7 +989,7 @@ function setupFilters(data) {
         option.dataset.filter = type;
         filterPanel.appendChild(option);
     });
-    
+
     // Event listeners for filters
     document.querySelectorAll('.filter_option').forEach(option => {
         option.addEventListener('click', () => {
