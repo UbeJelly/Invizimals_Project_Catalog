@@ -1,6 +1,6 @@
 {
     "catalog": {
-        "total_cards": 91,
+        "total_cards": 144,
         "total_types": [
             {
                 "type": "fire",
@@ -9,6 +9,10 @@
             {
                 "type": "ice",
                 "total": 47
+            },
+            {
+                "type": "desert",
+                "total": 53
             }
         ]
     },

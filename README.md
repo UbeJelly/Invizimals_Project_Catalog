@@ -29,13 +29,20 @@ Main features:
 {
     // JSON data of entire catalog
     "catalog": {
-        "total_cards": 91,
+        "total_cards": 144,
         "total_types": [
             {
                 "type": "fire",
                 "total": 44
             },
-            ...
+            {
+                "type": "ice",
+                "total": 47
+            },
+            {
+                "type": "desert",
+                "total": 53
+            }
         ]
     },
 
@@ -95,15 +102,10 @@ root
 
 ## 📌 License
 
-This project is **free for personal and community use and modification,** provided that the source and community are cited.
-
-Do not sell without permission from the authors, that is, our friends at **PANINI** and the creators of the **INVIZIMALS** saga.
-
-Orbitron font, Copyright 2018 The Orbitron Project Authors: [Open Font License](RESOURCES/Fonts/Orbitron/OFL.txt)
-
----
-This is free to use and modify however you want for personal projects, but don't use it for any monetary gain.
+This project is free to use and modify however you want for personal projects, but don't use it for any monetary gain.
 
 This project and its contents are not affiliated with, endorsed by, and/or maintained by **Sony Computer Entertainment America LLC**, **Novarama**, nor **PANINI**.
 
 All rights reserved of the original, unedited files and properties of Invizimals to its legal creators and owners.
+
+Orbitron font, Copyright 2018 The Orbitron Project Authors: [Open Font License](RESOURCES/Fonts/Orbitron/OFL.txt)
